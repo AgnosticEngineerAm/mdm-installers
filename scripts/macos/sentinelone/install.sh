@@ -9,7 +9,7 @@ set -euo pipefail
 ###############################################################################
 
 ### ====== CONFIG ==============================================================
-S1_PKG_URL="https://github.com/AsadAgnostic/mdm-installers/releases/download/s1-macos-25.4.1-8462/Sentinel-Release-25-4-1-8462_macos_v25_4_1_8462.pkg"
+S1_PKG_URL="https://github.com/AgnosticEngineerAm/mdm-installers/releases/download/s1-macos-25.4.1-8462/Sentinel-Release-25-4-1-8462_macos_v25_4_1_8462.pkg"
 S1_SITE_TOKEN="PASTE_YOUR_SITE_TOKEN_HERE"
 
 # Optional integrity and signing checks (recommended)
@@ -31,9 +31,7 @@ fail(){ log "ERROR: $*"; exit 1; }
 
 SENTINELCTL="/usr/local/bin/sentinelctl"
 
-# Try to detect a SentinelOne package receipt (names vary by version/vendor packaging)
 has_s1_receipt() {
-  # Common patterns; adjust if you know the exact receipt id from your installer
   pkgutil --pkgs 2>/dev/null | grep -Ei 'sentinelone|sentinel' >/dev/null 2>&1
 }
 
@@ -41,7 +39,6 @@ is_s1_installed() {
   if [[ -x "$SENTINELCTL" ]] && "$SENTINELCTL" status >/dev/null 2>&1; then return 0; fi
   if [[ -d "/Applications/SentinelOne" ]]; then return 0; fi
   if has_s1_receipt; then return 0; fi
-  # Narrower daemon check than "sentinel" to reduce false positives
   if /bin/ls /Library/LaunchDaemons 2>/dev/null | /usr/bin/grep -qi "sentinelone"; then return 0; fi
   return 1
 }
@@ -70,7 +67,7 @@ if [[ -n "$EXPECTED_SHA256" ]]; then
   [[ "$ACTUAL_SHA256" == "$EXPECTED_SHA256" ]] || fail "SHA256 mismatch"
   log "SHA256 verified."
 else
-  log "SHA256 not set; skipping checksum verification."
+  log "EXPECTED_SHA256 not set; skipping checksum verification."
 fi
 
 # Optional signature verification
