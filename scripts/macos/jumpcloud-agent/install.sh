@@ -19,6 +19,7 @@ JC_PKG_URL="https://cdn02.jumpcloud.com/production/agents/pkg/jumpcloud-agent.pk
 
 EXPECTED_SHA256=""
 
+
 FORCE_REINSTALL="false"
 LOG_FILE="/var/log/mdm-jumpcloud-install.log"
 ### ===========================================================================

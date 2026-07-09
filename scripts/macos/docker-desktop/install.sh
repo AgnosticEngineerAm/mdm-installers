@@ -21,6 +21,7 @@ else
 fi
 
 EXPECTED_SHA256=""
+
 FORCE_REINSTALL="false"
 LOG_FILE="/var/log/mdm-docker-install.log"
 ### ===========================================================================
