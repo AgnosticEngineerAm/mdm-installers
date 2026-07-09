@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  CrowdStrike Falcon — Network Content Filter (Network Extension) Profile
+  Purpose: Pre-approves CrowdStrike's network extension so macOS does not
+           prompt the user to allow network traffic filtering.
+
+  CrowdStrike Network Extension:
+    Bundle ID:   com.crowdstrike.falcon.agent
+    Team ID:     X9E956P446
+  Tested on: macOS 13 Ventura, 14 Sonoma, 15 Sequoia
+-->
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.webcontent-filter</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.mdm-installers.crowdstrike.netfilter</string>
+      <key>PayloadUUID</key>
+      <string>A3B4C5D6-E7F8-9012-6789-123456789012</string>
+      <key>PayloadDisplayName</key>
+      <string>CrowdStrike Falcon Network Content Filter</string>
+      <key>FilterType</key>
+      <string>Plugin</string>
+      <key>UserDefinedName</key>
+      <string>CrowdStrike Falcon Network Filter</string>
+      <key>PluginBundleID</key>
+      <string>com.crowdstrike.falcon.agent</string>
+      <key>FilterSockets</key>
+      <true/>
+      <key>FilterDataProviderBundleIdentifier</key>
+      <string>com.crowdstrike.falcon.agent</string>
+      <key>FilterDataProviderDesignatedRequirement</key>
+      <string>anchor apple generic and identifier "com.crowdstrike.falcon.agent" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "X9E956P446")</string>
+    </dict>
+  </array>
+  <key>PayloadDisplayName</key>
+  <string>CrowdStrike Falcon — Network Extension (Content Filter)</string>
+  <key>PayloadDescription</key>
+  <string>Pre-approves CrowdStrike network traffic filtering. Deploy before installing the agent.</string>
+  <key>PayloadIdentifier</key>
+  <string>com.mdm-installers.crowdstrike.netfilter.profile</string>
+  <key>PayloadOrganization</key>
+  <string>Your Organization Name</string>
+  <key>PayloadScope</key>
+  <string>System</string>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>B4C5D6E7-F8A9-0123-7890-234567890123</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>

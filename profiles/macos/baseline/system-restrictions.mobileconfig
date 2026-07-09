@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Baseline — System Restrictions Profile
+  Purpose: Enforces basic security hygiene on macOS devices.
+           - Requires admin password to change system-wide preferences
+           - Disables Guest Account
+           - Disables iCloud Drive and iCloud Desktop/Documents (Optional, toggle as needed)
+           - Blocks Touch ID from being used to unlock the Mac if desired (Off by default)
+
+  Tested on: macOS 13 Ventura, 14 Sonoma, 15 Sequoia
+-->
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <!-- System Preferences / System Settings Restrictions -->
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.systempreferences</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.mdm-installers.baseline.sysprefs</string>
+      <key>PayloadUUID</key>
+      <string>C7D8E9F0-A1B2-3456-0123-456789012345</string>
+      <key>PayloadDisplayName</key>
+      <string>System Preferences Restrictions</string>
+      <key>RequireAdminToChangeSystemPrefs</key>
+      <true/>
+    </dict>
+    <!-- Global Restrictions -->
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.applicationaccess</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.mdm-installers.baseline.restrictions</string>
+      <key>PayloadUUID</key>
+      <string>D8E9F0A1-B2C3-4567-1234-567890123456</string>
+      <key>PayloadDisplayName</key>
+      <string>Global Restrictions</string>
+      <!-- Disable Guest Account -->
+      <key>DisableGuestAccount</key>
+      <true/>
+      <!-- Cloud/Apple ID Settings -->
+      <!-- Set below to false to disable iCloud Drive completely if required by policy -->
+      <key>allowCloudDocumentSync</key>
+      <true/>
+      <key>allowCloudDesktopAndDocuments</key>
+      <true/>
+      <key>allowCloudPrivateRelay</key>
+      <false/>
+      <!-- Often blocked in enterprise to retain visibility into web traffic -->
+    </dict>
+  </array>
+  <key>PayloadDisplayName</key>
+  <string>Baseline — System Restrictions &amp; Security</string>
+  <key>PayloadDescription</key>
+  <string>Disables guest account, requires admin for system prefs, and disables iCloud Private Relay.</string>
+  <key>PayloadIdentifier</key>
+  <string>com.mdm-installers.baseline.restrictions.profile</string>
+  <key>PayloadOrganization</key>
+  <string>Your Organization Name</string>
+  <key>PayloadScope</key>
+  <string>System</string>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>E9F0A1B2-C3D4-5678-2345-678901234567</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>

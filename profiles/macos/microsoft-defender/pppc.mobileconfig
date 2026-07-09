@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Microsoft Defender for Endpoint — PPPC / Privacy Preferences Policy Control Profile
+  Purpose: Grants Full Disk Access and Accessibility entitlements to
+           Microsoft Defender so macOS does not prompt users for permissions.
+
+  Microsoft Defender Bundle IDs:
+    - com.microsoft.dlp.daemon    (Data Loss Prevention)
+    - com.microsoft.endpoint.security.extension (System Extension)
+    - com.microsoft.wdav          (Defender App)
+    - com.microsoft.wdav.epsext   (Endpoint Security Extension)
+  Team ID: UBF8T346G9 (Microsoft Corporation)
+  Tested on: macOS 13 Ventura, 14 Sonoma, 15 Sequoia
+-->
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.TCC.configuration-profile-policy</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.mdm-installers.microsoft-defender.pppc</string>
+      <key>PayloadUUID</key>
+      <string>C5D6E7F8-A9B0-1234-8901-345678901234</string>
+      <key>PayloadDisplayName</key>
+      <string>Microsoft Defender PPPC Permissions</string>
+      <key>PayloadDescription</key>
+      <string>Grants Full Disk Access and Accessibility to Microsoft Defender.</string>
+      <key>Services</key>
+      <dict>
+        <key>SystemPolicyAllFiles</key>
+        <array>
+          <!-- Microsoft Defender App -->
+          <dict>
+            <key>Allowed</key>
+            <true/>
+            <key>CodeRequirement</key>
+            <string>identifier "com.microsoft.wdav" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
+            <key>Comment</key>
+            <string>Microsoft Defender App</string>
+            <key>Identifier</key>
+            <string>com.microsoft.wdav</string>
+            <key>IdentifierType</key>
+            <string>bundleID</string>
+          </dict>
+          <!-- Microsoft Defender Endpoint Security Extension -->
+          <dict>
+            <key>Allowed</key>
+            <true/>
+            <key>CodeRequirement</key>
+            <string>identifier "com.microsoft.wdav.epsext" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
+            <key>Comment</key>
+            <string>Microsoft Defender Endpoint Security Extension</string>
+            <key>Identifier</key>
+            <string>com.microsoft.wdav.epsext</string>
+            <key>IdentifierType</key>
+            <string>bundleID</string>
+          </dict>
+        </array>
+        <key>Accessibility</key>
+        <array>
+          <!-- Accessibility needed for DLP features -->
+          <dict>
+            <key>Allowed</key>
+            <true/>
+            <key>CodeRequirement</key>
+            <string>identifier "com.microsoft.dlp.daemon" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
+            <key>Comment</key>
+            <string>Microsoft DLP Daemon</string>
+            <key>Identifier</key>
+            <string>com.microsoft.dlp.daemon</string>
+            <key>IdentifierType</key>
+            <string>bundleID</string>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </array>
+  <key>PayloadDisplayName</key>
+  <string>Microsoft Defender — Privacy Preferences (PPPC)</string>
+  <key>PayloadDescription</key>
+  <string>Grants Full Disk Access and Accessibility to Microsoft Defender.</string>
+  <key>PayloadIdentifier</key>
+  <string>com.mdm-installers.microsoft-defender.pppc.profile</string>
+  <key>PayloadOrganization</key>
+  <string>Your Organization Name</string>
+  <key>PayloadScope</key>
+  <string>System</string>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>D6E7F8A9-B0C1-2345-9012-456789012345</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>

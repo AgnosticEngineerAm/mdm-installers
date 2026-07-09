@@ -1,0 +1,28 @@
+name: ShellCheck
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'scripts/**/*.sh'
+  pull_request:
+    branches: [ "main" ]
+    paths:
+      - 'scripts/**/*.sh'
+
+jobs:
+  shellcheck:
+    name: Lint Bash Scripts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Run ShellCheck
+        uses: ludeeus/action-shellcheck@master
+        with:
+          scandir: './scripts'
+          severity: warning
+          check_together: 'yes'
+          # Ignore SC2016: Expressions don't expand in single quotes (we use this for config blocks)
+          # Ignore SC2034: Variable appears unused (used for template configuration blocks)
+          ignore_names: SC2016,SC2154,SC2034

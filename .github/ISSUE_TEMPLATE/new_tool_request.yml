@@ -1,0 +1,116 @@
+---
+name: New Tool / App Request
+description: Request a new install script, profile, or documentation for an app or tool
+title: "[REQUEST] Add support for <tool name>"
+labels: ["enhancement", "new-tool"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for requesting a new tool! The more detail you provide, the faster we can build it.
+        
+        **Pro tip:** If you already have a working script, open a PR instead — contributions are always welcome!
+
+  - type: input
+    id: tool_name
+    attributes:
+      label: Tool / App Name
+      description: Official name of the tool or application
+      placeholder: CrowdStrike Falcon, Zoom, Microsoft Defender for Endpoint
+    validations:
+      required: true
+
+  - type: input
+    id: vendor
+    attributes:
+      label: Vendor
+      placeholder: CrowdStrike, Zoom Video Communications, Microsoft
+
+  - type: dropdown
+    id: platforms
+    attributes:
+      label: Platforms Needed
+      multiple: true
+      options:
+        - macOS
+        - Windows
+        - Linux
+    validations:
+      required: true
+
+  - type: dropdown
+    id: asset_types
+    attributes:
+      label: What assets are needed?
+      multiple: true
+      options:
+        - Install script
+        - Uninstall script
+        - Configuration profiles (.mobileconfig)
+        - Documentation / guide
+    validations:
+      required: true
+
+  - type: input
+    id: download_url
+    attributes:
+      label: Installer Download URL (if known)
+      description: Direct URL to the PKG/MSI/EXE/DEB, or the vendor download page
+      placeholder: https://vendor.example.com/downloads/tool.pkg
+
+  - type: textarea
+    id: install_requirements
+    attributes:
+      label: Installation Requirements
+      description: |
+        What credentials or tokens are needed? Does it require configuration profiles before install?
+        Does it need a registration token, customer ID, license key, etc.?
+      placeholder: |
+        - Requires a Customer ID (CID) passed at install time
+        - Requires System Extension + PPPC profiles deployed before install
+        - macOS 12+ only
+
+  - type: dropdown
+    id: mdm_platforms
+    attributes:
+      label: MDM Platforms you use
+      multiple: true
+      options:
+        - Jamf Pro
+        - Microsoft Intune
+        - Kandji
+        - Mosyle
+        - JumpCloud
+        - Rippling
+        - VMware Workspace ONE
+        - Addigy
+        - SimpleMDM
+        - Other
+
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use Case / Context
+      description: Why does this tool need MDM deployment? Any specific challenges?
+      placeholder: |
+        We're rolling out CrowdStrike Falcon to 2,000 Macs via Jamf. The vendor's documentation
+        is sparse on what profiles are needed. We need a working PPPC + system extension profile
+        and a hardened install script that verifies the PKG signature.
+
+  - type: textarea
+    id: vendor_docs
+    attributes:
+      label: Vendor Documentation Links
+      description: Links to official deployment guides, if available
+      placeholder: |
+        - https://falcon.crowdstrike.com/documentation/page/macos-deployment
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched existing issues and this tool is not already requested or supported
+          required: true
+        - label: I am willing to test a script/profile when it is ready

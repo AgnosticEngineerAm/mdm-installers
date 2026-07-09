@@ -1,0 +1,179 @@
+{
+  "name": "MDM Installers Catalog",
+  "version": "1.0.0",
+  "last_updated": "2026-07-09T06:49:41Z",
+  "tools": [
+    {
+      "id": "1password",
+      "name": "1password",
+      "os": "macos",
+      "install_script": "scripts/macos/1password/install.sh",
+      "documentation": null
+    }
+    ,
+    {
+      "id": "crowdstrike",
+      "name": "Crowdstrike",
+      "os": "macos",
+      "install_script": "scripts/macos/crowdstrike/install.sh",
+      "profiles": [
+        "profiles/macos/crowdstrike/network-extension.mobileconfig"
+        ,
+        "profiles/macos/crowdstrike/pppc.mobileconfig"
+        ,
+        "profiles/macos/crowdstrike/system-extension.mobileconfig"
+      ],
+      "documentation": "docs/crowdstrike/macos.md"
+    }
+    ,
+    {
+      "id": "docker-desktop",
+      "name": "Docker Desktop",
+      "os": "macos",
+      "install_script": "scripts/macos/docker-desktop/install.sh",
+      "documentation": null
+    }
+    ,
+    {
+      "id": "google-chrome",
+      "name": "Google Chrome",
+      "os": "macos",
+      "install_script": "scripts/macos/google-chrome/install.sh",
+      "documentation": null
+    }
+    ,
+    {
+      "id": "jumpcloud-agent",
+      "name": "Jumpcloud Agent",
+      "os": "macos",
+      "install_script": "scripts/macos/jumpcloud-agent/install.sh",
+      "documentation": null
+    }
+    ,
+    {
+      "id": "microsoft-defender",
+      "name": "Microsoft Defender",
+      "os": "macos",
+      "install_script": "scripts/macos/microsoft-defender/install.sh",
+      "profiles": [
+        "profiles/macos/microsoft-defender/pppc.mobileconfig"
+        ,
+        "profiles/macos/microsoft-defender/system-extension.mobileconfig"
+      ],
+      "documentation": null
+    }
+    ,
+    {
+      "id": "microsoft-office",
+      "name": "Microsoft Office",
+      "os": "macos",
+      "install_script": "scripts/macos/microsoft-office/install.sh",
+      "documentation": null
+    }
+    ,
+    {
+      "id": "sentinelone",
+      "name": "Sentinelone",
+      "os": "macos",
+      "install_script": "scripts/macos/sentinelone/install.sh",
+      "profiles": [
+        "profiles/macos/sentinelone/network-extension.mobileconfig"
+        ,
+        "profiles/macos/sentinelone/notifications.mobileconfig"
+        ,
+        "profiles/macos/sentinelone/pppc.mobileconfig"
+        ,
+        "profiles/macos/sentinelone/system-extension.mobileconfig"
+      ],
+      "documentation": "docs/sentinelone/macos.md"
+    }
+    ,
+    {
+      "id": "slack",
+      "name": "Slack",
+      "os": "macos",
+      "install_script": "scripts/macos/slack/install.sh",
+      "documentation": null
+    }
+    ,
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "os": "macos",
+      "install_script": "scripts/macos/zoom/install.sh",
+      "documentation": null
+    }
+    ,
+    {
+      "id": "crowdstrike",
+      "name": "Crowdstrike",
+      "os": "windows",
+      "install_script": "scripts/windows/crowdstrike/install.ps1",
+      "documentation": "docs/crowdstrike/windows.md"
+    }
+    ,
+    {
+      "id": "google-chrome",
+      "name": "Google Chrome",
+      "os": "windows",
+      "install_script": "scripts/windows/google-chrome/install.ps1",
+      "documentation": null
+    }
+    ,
+    {
+      "id": "microsoft-365-apps",
+      "name": "Microsoft 365 Apps",
+      "os": "windows",
+      "install_script": "scripts/windows/microsoft-365-apps/install.ps1",
+      "documentation": null
+    }
+    ,
+    {
+      "id": "sentinelone",
+      "name": "Sentinelone",
+      "os": "windows",
+      "install_script": "scripts/windows/sentinelone/install.ps1",
+      "documentation": "docs/sentinelone/windows.md"
+    }
+    ,
+    {
+      "id": "slack",
+      "name": "Slack",
+      "os": "windows",
+      "install_script": "scripts/windows/slack/install.ps1",
+      "documentation": null
+    }
+    ,
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "os": "windows",
+      "install_script": "scripts/windows/zoom/install.ps1",
+      "documentation": null
+    }
+    ,
+    {
+      "id": "crowdstrike",
+      "name": "Crowdstrike",
+      "os": "linux",
+      "install_script": "scripts/linux/crowdstrike/install.sh",
+      "documentation": "docs/crowdstrike/linux.md"
+    }
+    ,
+    {
+      "id": "jumpcloud-agent",
+      "name": "Jumpcloud Agent",
+      "os": "linux",
+      "install_script": "scripts/linux/jumpcloud-agent/install.sh",
+      "documentation": null
+    }
+    ,
+    {
+      "id": "sentinelone",
+      "name": "Sentinelone",
+      "os": "linux",
+      "install_script": "scripts/linux/sentinelone/install.sh",
+      "documentation": "docs/sentinelone/linux.md"
+    }
+  ]
+}

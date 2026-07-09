@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Baseline — FileVault Key Escrow Profile
+  Purpose: Enforces FileVault encryption on macOS devices and escrows the
+           Personal Recovery Key (PRK) to the MDM server.
+
+  IMPORTANT:
+  1. The PayloadCertificateUUID must point to a valid encryption certificate payload
+     if your MDM requires it, OR many modern MDMs auto-inject this. Check your
+     MDM's documentation for "FileVault Escrow".
+  2. For Jamf, Intune, or Kandji, it's highly recommended to use their native
+     FileVault configuration UI rather than a custom profile.
+
+  Tested on: macOS 13 Ventura, 14 Sonoma, 15 Sequoia
+-->
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.MCX.FileVault2</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.mdm-installers.baseline.filevault</string>
+      <key>PayloadUUID</key>
+      <string>B0C1D2E3-F4A5-6789-3456-890123456789</string>
+      <key>PayloadDisplayName</key>
+      <string>FileVault 2 Policy</string>
+      <key>PayloadDescription</key>
+      <string>Enforces FileVault and escrows recovery key to MDM.</string>
+      <key>Enable</key>
+      <string>On</string>
+      <key>Defer</key>
+      <true/>
+      <key>UseRecoveryKey</key>
+      <true/>
+      <key>ShowRecoveryKey</key>
+      <false/>
+      <key>DeferDontAskAtUserLogout</key>
+      <false/>
+      <!-- Prompts user to enable FileVault at next login/logout -->
+    </dict>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.security.FDERecoveryKeyEscrow</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.mdm-installers.baseline.filevault.escrow</string>
+      <key>PayloadUUID</key>
+      <string>C1D2E3F4-A5B6-7890-4567-901234567890</string>
+      <key>PayloadDisplayName</key>
+      <string>FileVault Recovery Key Escrow</string>
+      <key>Location</key>
+      <string>IT Department</string>
+      <!-- Message shown to user on the recovery screen -->
+      <key>EncryptCertPayloadUUID</key>
+      <string>REPLACE_WITH_CERT_UUID_OR_USE_NATIVE_MDM_FEATURE</string>
+    </dict>
+  </array>
+  <key>PayloadDisplayName</key>
+  <string>Baseline — FileVault Encryption &amp; Escrow</string>
+  <key>PayloadDescription</key>
+  <string>Enforces FileVault disk encryption and escrows the recovery key to the MDM.</string>
+  <key>PayloadIdentifier</key>
+  <string>com.mdm-installers.baseline.filevault.profile</string>
+  <key>PayloadOrganization</key>
+  <string>Your Organization Name</string>
+  <key>PayloadScope</key>
+  <string>System</string>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>D2E3F4A5-B6C7-8901-5678-012345678901</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>

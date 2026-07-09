@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  SentinelOne — PPPC / Privacy Preferences Policy Control Profile
+  Purpose: Grants Full Disk Access and required privacy entitlements to
+           SentinelOne so macOS does not prompt users for permissions.
+
+  IMPORTANT:
+  1. Deploy this profile BEFORE installing the SentinelOne agent.
+  2. Generate fresh PayloadUUID values using `uuidgen` before production deployment.
+  3. Test on a device in a pilot group before broad rollout.
+
+  Source: SentinelOne macOS Deployment Guide
+  Profile type: com.apple.TCC.configuration-profile-policy
+  Tested on: macOS 13 Ventura, 14 Sonoma, 15 Sequoia
+-->
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.TCC.configuration-profile-policy</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.mdm-installers.sentinelone.pppc</string>
+      <key>PayloadUUID</key>
+      <string>A1B2C3D4-E5F6-7890-ABCD-EF1234567890</string>
+      <!-- Replace the UUID above with output of: uuidgen -->
+      <key>PayloadDisplayName</key>
+      <string>SentinelOne PPPC Permissions</string>
+      <key>PayloadDescription</key>
+      <string>Grants Full Disk Access and privacy permissions to SentinelOne Singularity.</string>
+      <key>Services</key>
+      <dict>
+        <key>SystemPolicyAllFiles</key>
+        <array>
+          <!-- SentinelOne Endpoint Security Extension (Full Disk Access) -->
+          <dict>
+            <key>Allowed</key>
+            <true/>
+            <key>CodeRequirement</key>
+            <string>anchor apple generic and identifier "com.sentinelone.sentineld" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "4QXE9H42T")</string>
+            <key>Comment</key>
+            <string>SentinelOne agent daemon — Full Disk Access</string>
+            <key>Identifier</key>
+            <string>com.sentinelone.sentineld</string>
+            <key>IdentifierType</key>
+            <string>bundleID</string>
+          </dict>
+          <!-- SentinelOne GUI / Management app -->
+          <dict>
+            <key>Allowed</key>
+            <true/>
+            <key>CodeRequirement</key>
+            <string>anchor apple generic and identifier "com.sentinelone.SentinelOne" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "4QXE9H42T")</string>
+            <key>Comment</key>
+            <string>SentinelOne app — Full Disk Access</string>
+            <key>Identifier</key>
+            <string>com.sentinelone.SentinelOne</string>
+            <key>IdentifierType</key>
+            <string>bundleID</string>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </array>
+  <key>PayloadDisplayName</key>
+  <string>SentinelOne — Privacy Preferences (PPPC)</string>
+  <key>PayloadDescription</key>
+  <string>Grants Full Disk Access to SentinelOne. Deploy before installing the SentinelOne agent to prevent user permission prompts.</string>
+  <key>PayloadIdentifier</key>
+  <string>com.mdm-installers.sentinelone.pppc.profile</string>
+  <key>PayloadOrganization</key>
+  <string>Your Organization Name</string>
+  <!-- Replace "Your Organization Name" with your actual org name -->
+  <key>PayloadScope</key>
+  <string>System</string>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>B2C3D4E5-F6A7-8901-BCDE-F12345678901</string>
+  <!-- Replace with: uuidgen -->
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>

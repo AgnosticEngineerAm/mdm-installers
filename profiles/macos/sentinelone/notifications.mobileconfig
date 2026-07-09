@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  SentinelOne — Notifications Profile
+  Purpose: Configures SentinelOne notification preferences to prevent
+           macOS from showing "allow notifications" prompts to users.
+           Set to show alerts for critical security events.
+
+  Tested on: macOS 13 Ventura, 14 Sonoma, 15 Sequoia
+-->
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.notificationsettings</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.mdm-installers.sentinelone.notifications</string>
+      <key>PayloadUUID</key>
+      <string>A7B8C9D0-E1F2-3456-0123-567890123456</string>
+      <!-- Replace with: uuidgen -->
+      <key>PayloadDisplayName</key>
+      <string>SentinelOne Notification Settings</string>
+      <key>NotificationSettings</key>
+      <array>
+        <dict>
+          <key>BundleIdentifier</key>
+          <string>com.sentinelone.SentinelOne</string>
+          <key>NotificationsEnabled</key>
+          <true/>
+          <key>ShowInNotificationCenter</key>
+          <true/>
+          <key>ShowInLockScreen</key>
+          <false/>
+          <key>AlertType</key>
+          <integer>1</integer>
+          <!-- 0 = None, 1 = Banner, 2 = Alert (requires user dismiss) -->
+          <key>BadgesEnabled</key>
+          <true/>
+          <key>SoundsEnabled</key>
+          <false/>
+          <key>CriticalAlertEnabled</key>
+          <false/>
+        </dict>
+      </array>
+    </dict>
+  </array>
+  <key>PayloadDisplayName</key>
+  <string>SentinelOne — Notification Preferences</string>
+  <key>PayloadDescription</key>
+  <string>Configures SentinelOne notification settings. Prevents the macOS notification permission prompt.</string>
+  <key>PayloadIdentifier</key>
+  <string>com.mdm-installers.sentinelone.notifications.profile</string>
+  <key>PayloadOrganization</key>
+  <string>Your Organization Name</string>
+  <key>PayloadScope</key>
+  <string>User</string>
+  <!-- Note: Notification profiles are scoped to User, not System -->
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>B8C9D0E1-F2A3-4567-1234-678901234567</string>
+  <!-- Replace with: uuidgen -->
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>

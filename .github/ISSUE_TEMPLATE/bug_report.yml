@@ -1,0 +1,119 @@
+---
+name: Bug Report
+description: Report a broken script, profile, or documentation issue
+title: "[BUG] <short description>"
+labels: ["bug", "needs-triage"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug! Please fill out as much detail as possible so we can reproduce and fix it quickly.
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: Which platform does this bug affect?
+      multiple: true
+      options:
+        - macOS
+        - Windows
+        - Linux
+    validations:
+      required: true
+
+  - type: dropdown
+    id: asset_type
+    attributes:
+      label: Asset Type
+      description: What type of asset is broken?
+      options:
+        - Install Script
+        - Uninstall Script
+        - Configuration Profile (.mobileconfig)
+        - Documentation
+        - GitHub Actions / CI
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: asset_path
+    attributes:
+      label: File Path
+      description: Path to the affected file (e.g., scripts/macos/sentinelone/install.sh)
+      placeholder: scripts/macos/<toolname>/install.sh
+    validations:
+      required: true
+
+  - type: input
+    id: os_version
+    attributes:
+      label: OS Version
+      description: e.g., macOS 15.3 Sequoia, Windows 11 23H2, Ubuntu 22.04
+      placeholder: macOS 15.3 Sequoia
+    validations:
+      required: true
+
+  - type: input
+    id: mdm_platform
+    attributes:
+      label: MDM Platform
+      description: Which MDM are you using? (e.g., Jamf Pro 11.x, Intune, Kandji, Mosyle, JumpCloud, Rippling)
+      placeholder: Jamf Pro 11.x
+
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened?
+      description: Describe the bug. What did you expect vs. what actually happened?
+      placeholder: |
+        Expected: Script installs CrowdStrike silently and exits 0.
+        Actual: Script exits with "Download failed" even though the URL is valid.
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Log Output
+      description: Paste the relevant portion of the MDM log or terminal output. Please redact any tokens or sensitive values.
+      render: shell
+      placeholder: |
+        [2025-01-15T10:23:44Z] Downloading CrowdStrike PKG...
+        [2025-01-15T10:23:46Z] ERROR: Download failed
+
+  - type: textarea
+    id: steps_to_reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce this?
+      placeholder: |
+        1. Deploy script via Jamf policy
+        2. Run as root
+        3. Observe error in Jamf logs
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - Critical (breaks deployment completely)
+        - High (workaround exists but it's painful)
+        - Medium (minor issue, easy workaround)
+        - Low (cosmetic / logging improvement)
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched existing issues and this is not a duplicate
+          required: true
+        - label: I have redacted all tokens, passwords, and sensitive data from this report
+          required: true
