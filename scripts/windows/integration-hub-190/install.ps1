@@ -1,0 +1,13 @@
+<#
+.SYNOPSIS
+Integration Hub 190 Enterprise Windows MDM Install
+#>
+$MsiUrl = "PASTE_YOUR_WIN_URL_FOR_INTEGRATION_HUB_190_HERE"
+$ExpectedSha256 = ""
+
+. "$PSScriptRoot\..\_lib\common.ps1"
+Write-Log "Installing Integration Hub 190..."
+
+$msiPath = Download-File -Url $MsiUrl -ExpectedSha256 $ExpectedSha256
+Install-Msi -MsiPath $msiPath
+Write-Log "SUCCESS: Integration Hub 190 installed."

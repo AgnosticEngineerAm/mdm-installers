@@ -1,0 +1,13 @@
+<#
+.SYNOPSIS
+UBlock Origin Enterprise Windows MDM Install
+#>
+$MsiUrl = "PASTE_YOUR_WIN_URL_FOR_UBLOCK_ORIGIN_HERE"
+$ExpectedSha256 = ""
+
+. "$PSScriptRoot\..\_lib\common.ps1"
+Write-Log "Installing UBlock Origin..."
+
+$msiPath = Download-File -Url $MsiUrl -ExpectedSha256 $ExpectedSha256
+Install-Msi -MsiPath $msiPath
+Write-Log "SUCCESS: UBlock Origin installed."

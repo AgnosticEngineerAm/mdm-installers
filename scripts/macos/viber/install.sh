@@ -1,0 +1,13 @@
+#!/bin/bash
+set -euo pipefail
+# Viber Enterprise macOS MDM Install
+
+PKG_URL="PASTE_YOUR_MAC_URL_FOR_VIBER_HERE"
+EXPECTED_SHA256=""
+
+source "$(dirname "$0")/../_lib/common.sh"
+log "Installing Viber..."
+
+download_pkg "$PKG_URL" "$EXPECTED_SHA256"
+install_pkg
+log "SUCCESS: Viber installed."
