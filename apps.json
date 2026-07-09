@@ -1488,1515 +1488,1515 @@
     "windows_url": "PASTE_YOUR_WIN_URL_FOR_SONOS_HERE"
   },
   {
-    "id": "enterprise-utility-1",
-    "name": "Enterprise Utility 1",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_UTILITY_1_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_UTILITY_1_HERE"
+    "id": "jenkins",
+    "name": "Jenkins",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_JENKINS_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_JENKINS_HERE"
   },
   {
-    "id": "enterprise-plugin-2",
-    "name": "Enterprise Plugin 2",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_PLUGIN_2_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_PLUGIN_2_HERE"
+    "id": "travis-ci",
+    "name": "Travis CI",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_TRAVIS_CI_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_TRAVIS_CI_HERE"
   },
   {
-    "id": "cloud-connector-3",
-    "name": "Cloud Connector 3",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CLOUD_CONNECTOR_3_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CLOUD_CONNECTOR_3_HERE"
+    "id": "circleci",
+    "name": "CircleCI",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CIRCLECI_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CIRCLECI_HERE"
   },
   {
-    "id": "identity-provider-4",
-    "name": "Identity Provider 4",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_IDENTITY_PROVIDER_4_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_IDENTITY_PROVIDER_4_HERE"
+    "id": "gitlab-runner",
+    "name": "GitLab Runner",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_GITLAB_RUNNER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_GITLAB_RUNNER_HERE"
   },
   {
-    "id": "data-sync-5",
-    "name": "Data Sync 5",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DATA_SYNC_5_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DATA_SYNC_5_HERE"
+    "id": "teamcity",
+    "name": "TeamCity",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_TEAMCITY_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_TEAMCITY_HERE"
   },
   {
-    "id": "compliance-scanner-6",
-    "name": "Compliance Scanner 6",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_COMPLIANCE_SCANNER_6_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_COMPLIANCE_SCANNER_6_HERE"
+    "id": "bamboo",
+    "name": "Bamboo",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BAMBOO_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BAMBOO_HERE"
   },
   {
-    "id": "audit-agent-7",
-    "name": "Audit Agent 7",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_AUDIT_AGENT_7_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_AUDIT_AGENT_7_HERE"
+    "id": "octopus-deploy",
+    "name": "Octopus Deploy",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_OCTOPUS_DEPLOY_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_OCTOPUS_DEPLOY_HERE"
   },
   {
-    "id": "backup-agent-8",
-    "name": "Backup Agent 8",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BACKUP_AGENT_8_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BACKUP_AGENT_8_HERE"
+    "id": "sonatype-nexus",
+    "name": "Sonatype Nexus",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_SONATYPE_NEXUS_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_SONATYPE_NEXUS_HERE"
   },
   {
-    "id": "reporting-tool-9",
-    "name": "Reporting Tool 9",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_REPORTING_TOOL_9_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_REPORTING_TOOL_9_HERE"
+    "id": "jfrog-artifactory",
+    "name": "JFrog Artifactory",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_JFROG_ARTIFACTORY_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_JFROG_ARTIFACTORY_HERE"
   },
   {
-    "id": "integration-hub-10",
-    "name": "Integration Hub 10",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_INTEGRATION_HUB_10_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_INTEGRATION_HUB_10_HERE"
+    "id": "sonarqube",
+    "name": "SonarQube",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_SONARQUBE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_SONARQUBE_HERE"
   },
   {
-    "id": "monitoring-agent-11",
-    "name": "Monitoring Agent 11",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MONITORING_AGENT_11_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MONITORING_AGENT_11_HERE"
+    "id": "datadog-agent",
+    "name": "Datadog Agent",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DATADOG_AGENT_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DATADOG_AGENT_HERE"
   },
   {
-    "id": "network-probe-12",
-    "name": "Network Probe 12",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NETWORK_PROBE_12_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NETWORK_PROBE_12_HERE"
+    "id": "new-relic-agent",
+    "name": "New Relic Agent",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NEW_RELIC_AGENT_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NEW_RELIC_AGENT_HERE"
   },
   {
-    "id": "enterprise-utility-13",
-    "name": "Enterprise Utility 13",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_UTILITY_13_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_UTILITY_13_HERE"
+    "id": "dynatrace-oneagent",
+    "name": "Dynatrace OneAgent",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DYNATRACE_ONEAGENT_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DYNATRACE_ONEAGENT_HERE"
   },
   {
-    "id": "enterprise-plugin-14",
-    "name": "Enterprise Plugin 14",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_PLUGIN_14_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_PLUGIN_14_HERE"
+    "id": "appdynamics-agent",
+    "name": "AppDynamics Agent",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_APPDYNAMICS_AGENT_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_APPDYNAMICS_AGENT_HERE"
   },
   {
-    "id": "cloud-connector-15",
-    "name": "Cloud Connector 15",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CLOUD_CONNECTOR_15_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CLOUD_CONNECTOR_15_HERE"
+    "id": "splunk-universal-forwarder",
+    "name": "Splunk Universal Forwarder",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_SPLUNK_UNIVERSAL_FORWARDER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_SPLUNK_UNIVERSAL_FORWARDER_HERE"
   },
   {
-    "id": "identity-provider-16",
-    "name": "Identity Provider 16",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_IDENTITY_PROVIDER_16_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_IDENTITY_PROVIDER_16_HERE"
+    "id": "fluentd",
+    "name": "Fluentd",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_FLUENTD_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_FLUENTD_HERE"
   },
   {
-    "id": "data-sync-17",
-    "name": "Data Sync 17",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DATA_SYNC_17_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DATA_SYNC_17_HERE"
+    "id": "logstash",
+    "name": "Logstash",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_LOGSTASH_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_LOGSTASH_HERE"
   },
   {
-    "id": "compliance-scanner-18",
-    "name": "Compliance Scanner 18",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_COMPLIANCE_SCANNER_18_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_COMPLIANCE_SCANNER_18_HERE"
+    "id": "kibana",
+    "name": "Kibana",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_KIBANA_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_KIBANA_HERE"
   },
   {
-    "id": "audit-agent-19",
-    "name": "Audit Agent 19",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_AUDIT_AGENT_19_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_AUDIT_AGENT_19_HERE"
+    "id": "grafana",
+    "name": "Grafana",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_GRAFANA_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_GRAFANA_HERE"
   },
   {
-    "id": "backup-agent-20",
-    "name": "Backup Agent 20",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BACKUP_AGENT_20_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BACKUP_AGENT_20_HERE"
+    "id": "prometheus",
+    "name": "Prometheus",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_PROMETHEUS_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_PROMETHEUS_HERE"
   },
   {
-    "id": "reporting-tool-21",
-    "name": "Reporting Tool 21",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_REPORTING_TOOL_21_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_REPORTING_TOOL_21_HERE"
+    "id": "zabbix",
+    "name": "Zabbix",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ZABBIX_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ZABBIX_HERE"
   },
   {
-    "id": "integration-hub-22",
-    "name": "Integration Hub 22",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_INTEGRATION_HUB_22_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_INTEGRATION_HUB_22_HERE"
+    "id": "nagios",
+    "name": "Nagios",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NAGIOS_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NAGIOS_HERE"
   },
   {
-    "id": "monitoring-agent-23",
-    "name": "Monitoring Agent 23",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MONITORING_AGENT_23_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MONITORING_AGENT_23_HERE"
+    "id": "icinga",
+    "name": "Icinga",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ICINGA_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ICINGA_HERE"
   },
   {
-    "id": "network-probe-24",
-    "name": "Network Probe 24",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NETWORK_PROBE_24_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NETWORK_PROBE_24_HERE"
+    "id": "sensu",
+    "name": "Sensu",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_SENSU_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_SENSU_HERE"
   },
   {
-    "id": "enterprise-utility-25",
-    "name": "Enterprise Utility 25",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_UTILITY_25_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_UTILITY_25_HERE"
+    "id": "pagerduty",
+    "name": "PagerDuty",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_PAGERDUTY_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_PAGERDUTY_HERE"
   },
   {
-    "id": "enterprise-plugin-26",
-    "name": "Enterprise Plugin 26",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_PLUGIN_26_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_PLUGIN_26_HERE"
+    "id": "victorops",
+    "name": "VictorOps",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_VICTOROPS_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_VICTOROPS_HERE"
   },
   {
-    "id": "cloud-connector-27",
-    "name": "Cloud Connector 27",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CLOUD_CONNECTOR_27_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CLOUD_CONNECTOR_27_HERE"
+    "id": "opsgenie",
+    "name": "Opsgenie",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_OPSGENIE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_OPSGENIE_HERE"
   },
   {
-    "id": "identity-provider-28",
-    "name": "Identity Provider 28",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_IDENTITY_PROVIDER_28_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_IDENTITY_PROVIDER_28_HERE"
+    "id": "pingdom",
+    "name": "Pingdom",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_PINGDOM_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_PINGDOM_HERE"
   },
   {
-    "id": "data-sync-29",
-    "name": "Data Sync 29",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DATA_SYNC_29_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DATA_SYNC_29_HERE"
+    "id": "statuspage",
+    "name": "Statuspage",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_STATUSPAGE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_STATUSPAGE_HERE"
   },
   {
-    "id": "compliance-scanner-30",
-    "name": "Compliance Scanner 30",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_COMPLIANCE_SCANNER_30_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_COMPLIANCE_SCANNER_30_HERE"
+    "id": "sentry",
+    "name": "Sentry",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_SENTRY_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_SENTRY_HERE"
   },
   {
-    "id": "audit-agent-31",
-    "name": "Audit Agent 31",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_AUDIT_AGENT_31_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_AUDIT_AGENT_31_HERE"
+    "id": "bugsnag",
+    "name": "Bugsnag",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BUGSNAG_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BUGSNAG_HERE"
   },
   {
-    "id": "backup-agent-32",
-    "name": "Backup Agent 32",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BACKUP_AGENT_32_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BACKUP_AGENT_32_HERE"
+    "id": "rollbar",
+    "name": "Rollbar",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ROLLBAR_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ROLLBAR_HERE"
   },
   {
-    "id": "reporting-tool-33",
-    "name": "Reporting Tool 33",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_REPORTING_TOOL_33_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_REPORTING_TOOL_33_HERE"
+    "id": "studio-3t",
+    "name": "Studio 3T",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_STUDIO_3T_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_STUDIO_3T_HERE"
   },
   {
-    "id": "integration-hub-34",
-    "name": "Integration Hub 34",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_INTEGRATION_HUB_34_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_INTEGRATION_HUB_34_HERE"
+    "id": "dbvisualizer",
+    "name": "DbVisualizer",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DBVISUALIZER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DBVISUALIZER_HERE"
   },
   {
-    "id": "monitoring-agent-35",
-    "name": "Monitoring Agent 35",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MONITORING_AGENT_35_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MONITORING_AGENT_35_HERE"
+    "id": "sqlectron",
+    "name": "Sqlectron",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_SQLECTRON_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_SQLECTRON_HERE"
   },
   {
-    "id": "network-probe-36",
-    "name": "Network Probe 36",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NETWORK_PROBE_36_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NETWORK_PROBE_36_HERE"
+    "id": "valentina-studio",
+    "name": "Valentina Studio",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_VALENTINA_STUDIO_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_VALENTINA_STUDIO_HERE"
   },
   {
-    "id": "enterprise-utility-37",
-    "name": "Enterprise Utility 37",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_UTILITY_37_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_UTILITY_37_HERE"
+    "id": "querious",
+    "name": "Querious",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_QUERIOUS_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_QUERIOUS_HERE"
   },
   {
-    "id": "enterprise-plugin-38",
-    "name": "Enterprise Plugin 38",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_PLUGIN_38_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_PLUGIN_38_HERE"
+    "id": "postico",
+    "name": "Postico",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_POSTICO_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_POSTICO_HERE"
   },
   {
-    "id": "cloud-connector-39",
-    "name": "Cloud Connector 39",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CLOUD_CONNECTOR_39_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CLOUD_CONNECTOR_39_HERE"
+    "id": "sequel-pro",
+    "name": "Sequel Pro",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_SEQUEL_PRO_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_SEQUEL_PRO_HERE"
   },
   {
-    "id": "identity-provider-40",
-    "name": "Identity Provider 40",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_IDENTITY_PROVIDER_40_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_IDENTITY_PROVIDER_40_HERE"
+    "id": "tableplus",
+    "name": "TablePlus",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_TABLEPLUS_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_TABLEPLUS_HERE"
   },
   {
-    "id": "data-sync-41",
-    "name": "Data Sync 41",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DATA_SYNC_41_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DATA_SYNC_41_HERE"
+    "id": "azure-data-studio",
+    "name": "Azure Data Studio",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_AZURE_DATA_STUDIO_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_AZURE_DATA_STUDIO_HERE"
   },
   {
-    "id": "compliance-scanner-42",
-    "name": "Compliance Scanner 42",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_COMPLIANCE_SCANNER_42_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_COMPLIANCE_SCANNER_42_HERE"
+    "id": "kitematic",
+    "name": "Kitematic",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_KITEMATIC_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_KITEMATIC_HERE"
   },
   {
-    "id": "audit-agent-43",
-    "name": "Audit Agent 43",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_AUDIT_AGENT_43_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_AUDIT_AGENT_43_HERE"
+    "id": "portainer",
+    "name": "Portainer",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_PORTAINER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_PORTAINER_HERE"
   },
   {
-    "id": "backup-agent-44",
-    "name": "Backup Agent 44",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BACKUP_AGENT_44_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BACKUP_AGENT_44_HERE"
+    "id": "lens",
+    "name": "Lens",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_LENS_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_LENS_HERE"
   },
   {
-    "id": "reporting-tool-45",
-    "name": "Reporting Tool 45",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_REPORTING_TOOL_45_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_REPORTING_TOOL_45_HERE"
+    "id": "octant",
+    "name": "Octant",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_OCTANT_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_OCTANT_HERE"
   },
   {
-    "id": "integration-hub-46",
-    "name": "Integration Hub 46",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_INTEGRATION_HUB_46_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_INTEGRATION_HUB_46_HERE"
+    "id": "corel-paintshop-pro",
+    "name": "Corel PaintShop Pro",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_COREL_PAINTSHOP_PRO_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_COREL_PAINTSHOP_PRO_HERE"
   },
   {
-    "id": "monitoring-agent-47",
-    "name": "Monitoring Agent 47",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MONITORING_AGENT_47_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MONITORING_AGENT_47_HERE"
+    "id": "corel-videostudio",
+    "name": "Corel VideoStudio",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_COREL_VIDEOSTUDIO_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_COREL_VIDEOSTUDIO_HERE"
   },
   {
-    "id": "network-probe-48",
-    "name": "Network Probe 48",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NETWORK_PROBE_48_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NETWORK_PROBE_48_HERE"
+    "id": "pinnacle-studio",
+    "name": "Pinnacle Studio",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_PINNACLE_STUDIO_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_PINNACLE_STUDIO_HERE"
   },
   {
-    "id": "enterprise-utility-49",
-    "name": "Enterprise Utility 49",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_UTILITY_49_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_UTILITY_49_HERE"
+    "id": "magix-vegas-pro",
+    "name": "Magix Vegas Pro",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MAGIX_VEGAS_PRO_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MAGIX_VEGAS_PRO_HERE"
   },
   {
-    "id": "enterprise-plugin-50",
-    "name": "Enterprise Plugin 50",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_PLUGIN_50_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_PLUGIN_50_HERE"
+    "id": "davinci-resolve",
+    "name": "DaVinci Resolve",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DAVINCI_RESOLVE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DAVINCI_RESOLVE_HERE"
   },
   {
-    "id": "cloud-connector-51",
-    "name": "Cloud Connector 51",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CLOUD_CONNECTOR_51_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CLOUD_CONNECTOR_51_HERE"
+    "id": "final-cut-pro",
+    "name": "Final Cut Pro",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_FINAL_CUT_PRO_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_FINAL_CUT_PRO_HERE"
   },
   {
-    "id": "identity-provider-52",
-    "name": "Identity Provider 52",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_IDENTITY_PROVIDER_52_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_IDENTITY_PROVIDER_52_HERE"
+    "id": "logic-pro",
+    "name": "Logic Pro",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_LOGIC_PRO_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_LOGIC_PRO_HERE"
   },
   {
-    "id": "data-sync-53",
-    "name": "Data Sync 53",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DATA_SYNC_53_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DATA_SYNC_53_HERE"
+    "id": "garageband",
+    "name": "GarageBand",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_GARAGEBAND_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_GARAGEBAND_HERE"
   },
   {
-    "id": "compliance-scanner-54",
-    "name": "Compliance Scanner 54",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_COMPLIANCE_SCANNER_54_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_COMPLIANCE_SCANNER_54_HERE"
+    "id": "ableton-live",
+    "name": "Ableton Live",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ABLETON_LIVE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ABLETON_LIVE_HERE"
   },
   {
-    "id": "audit-agent-55",
-    "name": "Audit Agent 55",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_AUDIT_AGENT_55_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_AUDIT_AGENT_55_HERE"
+    "id": "fl-studio",
+    "name": "FL Studio",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_FL_STUDIO_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_FL_STUDIO_HERE"
   },
   {
-    "id": "backup-agent-56",
-    "name": "Backup Agent 56",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BACKUP_AGENT_56_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BACKUP_AGENT_56_HERE"
+    "id": "pro-tools",
+    "name": "Pro Tools",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_PRO_TOOLS_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_PRO_TOOLS_HERE"
   },
   {
-    "id": "reporting-tool-57",
-    "name": "Reporting Tool 57",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_REPORTING_TOOL_57_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_REPORTING_TOOL_57_HERE"
+    "id": "cubase",
+    "name": "Cubase",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CUBASE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CUBASE_HERE"
   },
   {
-    "id": "integration-hub-58",
-    "name": "Integration Hub 58",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_INTEGRATION_HUB_58_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_INTEGRATION_HUB_58_HERE"
+    "id": "studio-one",
+    "name": "Studio One",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_STUDIO_ONE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_STUDIO_ONE_HERE"
   },
   {
-    "id": "monitoring-agent-59",
-    "name": "Monitoring Agent 59",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MONITORING_AGENT_59_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MONITORING_AGENT_59_HERE"
+    "id": "reason",
+    "name": "Reason",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_REASON_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_REASON_HERE"
   },
   {
-    "id": "network-probe-60",
-    "name": "Network Probe 60",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NETWORK_PROBE_60_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NETWORK_PROBE_60_HERE"
+    "id": "bitwig-studio",
+    "name": "Bitwig Studio",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BITWIG_STUDIO_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BITWIG_STUDIO_HERE"
   },
   {
-    "id": "enterprise-utility-61",
-    "name": "Enterprise Utility 61",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_UTILITY_61_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_UTILITY_61_HERE"
+    "id": "reaper",
+    "name": "Reaper",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_REAPER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_REAPER_HERE"
   },
   {
-    "id": "enterprise-plugin-62",
-    "name": "Enterprise Plugin 62",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_PLUGIN_62_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_PLUGIN_62_HERE"
+    "id": "adobe-audition",
+    "name": "Adobe Audition",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ADOBE_AUDITION_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ADOBE_AUDITION_HERE"
   },
   {
-    "id": "cloud-connector-63",
-    "name": "Cloud Connector 63",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CLOUD_CONNECTOR_63_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CLOUD_CONNECTOR_63_HERE"
+    "id": "adobe-premiere-rush",
+    "name": "Adobe Premiere Rush",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ADOBE_PREMIERE_RUSH_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ADOBE_PREMIERE_RUSH_HERE"
   },
   {
-    "id": "identity-provider-64",
-    "name": "Identity Provider 64",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_IDENTITY_PROVIDER_64_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_IDENTITY_PROVIDER_64_HERE"
+    "id": "adobe-media-encoder",
+    "name": "Adobe Media Encoder",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ADOBE_MEDIA_ENCODER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ADOBE_MEDIA_ENCODER_HERE"
   },
   {
-    "id": "data-sync-65",
-    "name": "Data Sync 65",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DATA_SYNC_65_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DATA_SYNC_65_HERE"
+    "id": "adobe-character-animator",
+    "name": "Adobe Character Animator",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ADOBE_CHARACTER_ANIMATOR_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ADOBE_CHARACTER_ANIMATOR_HERE"
   },
   {
-    "id": "compliance-scanner-66",
-    "name": "Compliance Scanner 66",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_COMPLIANCE_SCANNER_66_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_COMPLIANCE_SCANNER_66_HERE"
+    "id": "adobe-bridge",
+    "name": "Adobe Bridge",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ADOBE_BRIDGE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ADOBE_BRIDGE_HERE"
   },
   {
-    "id": "audit-agent-67",
-    "name": "Audit Agent 67",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_AUDIT_AGENT_67_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_AUDIT_AGENT_67_HERE"
+    "id": "adobe-prelude",
+    "name": "Adobe Prelude",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ADOBE_PRELUDE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ADOBE_PRELUDE_HERE"
   },
   {
-    "id": "backup-agent-68",
-    "name": "Backup Agent 68",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BACKUP_AGENT_68_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BACKUP_AGENT_68_HERE"
+    "id": "adobe-incopy",
+    "name": "Adobe InCopy",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ADOBE_INCOPY_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ADOBE_INCOPY_HERE"
   },
   {
-    "id": "reporting-tool-69",
-    "name": "Reporting Tool 69",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_REPORTING_TOOL_69_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_REPORTING_TOOL_69_HERE"
+    "id": "adobe-dreamweaver",
+    "name": "Adobe Dreamweaver",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ADOBE_DREAMWEAVER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ADOBE_DREAMWEAVER_HERE"
   },
   {
-    "id": "integration-hub-70",
-    "name": "Integration Hub 70",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_INTEGRATION_HUB_70_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_INTEGRATION_HUB_70_HERE"
+    "id": "adobe-animate",
+    "name": "Adobe Animate",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ADOBE_ANIMATE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ADOBE_ANIMATE_HERE"
   },
   {
-    "id": "monitoring-agent-71",
-    "name": "Monitoring Agent 71",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MONITORING_AGENT_71_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MONITORING_AGENT_71_HERE"
+    "id": "adobe-captivate",
+    "name": "Adobe Captivate",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ADOBE_CAPTIVATE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ADOBE_CAPTIVATE_HERE"
   },
   {
-    "id": "network-probe-72",
-    "name": "Network Probe 72",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NETWORK_PROBE_72_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NETWORK_PROBE_72_HERE"
+    "id": "adobe-framemaker",
+    "name": "Adobe FrameMaker",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ADOBE_FRAMEMAKER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ADOBE_FRAMEMAKER_HERE"
   },
   {
-    "id": "enterprise-utility-73",
-    "name": "Enterprise Utility 73",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_UTILITY_73_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_UTILITY_73_HERE"
+    "id": "adobe-robohelp",
+    "name": "Adobe RoboHelp",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ADOBE_ROBOHELP_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ADOBE_ROBOHELP_HERE"
   },
   {
-    "id": "enterprise-plugin-74",
-    "name": "Enterprise Plugin 74",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_PLUGIN_74_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_PLUGIN_74_HERE"
+    "id": "adobe-presenter",
+    "name": "Adobe Presenter",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ADOBE_PRESENTER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ADOBE_PRESENTER_HERE"
   },
   {
-    "id": "cloud-connector-75",
-    "name": "Cloud Connector 75",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CLOUD_CONNECTOR_75_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CLOUD_CONNECTOR_75_HERE"
+    "id": "adobe-connect",
+    "name": "Adobe Connect",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ADOBE_CONNECT_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ADOBE_CONNECT_HERE"
   },
   {
-    "id": "identity-provider-76",
-    "name": "Identity Provider 76",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_IDENTITY_PROVIDER_76_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_IDENTITY_PROVIDER_76_HERE"
+    "id": "adobe-sign",
+    "name": "Adobe Sign",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ADOBE_SIGN_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ADOBE_SIGN_HERE"
   },
   {
-    "id": "data-sync-77",
-    "name": "Data Sync 77",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DATA_SYNC_77_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DATA_SYNC_77_HERE"
+    "id": "adobe-scan",
+    "name": "Adobe Scan",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ADOBE_SCAN_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ADOBE_SCAN_HERE"
   },
   {
-    "id": "compliance-scanner-78",
-    "name": "Compliance Scanner 78",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_COMPLIANCE_SCANNER_78_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_COMPLIANCE_SCANNER_78_HERE"
+    "id": "adobe-fill-and-sign",
+    "name": "Adobe Fill and Sign",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ADOBE_FILL_AND_SIGN_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ADOBE_FILL_AND_SIGN_HERE"
   },
   {
-    "id": "audit-agent-79",
-    "name": "Audit Agent 79",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_AUDIT_AGENT_79_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_AUDIT_AGENT_79_HERE"
+    "id": "acrobat-pro-dc",
+    "name": "Acrobat Pro DC",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ACROBAT_PRO_DC_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ACROBAT_PRO_DC_HERE"
   },
   {
-    "id": "backup-agent-80",
-    "name": "Backup Agent 80",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BACKUP_AGENT_80_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BACKUP_AGENT_80_HERE"
+    "id": "acrobat-standard-dc",
+    "name": "Acrobat Standard DC",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ACROBAT_STANDARD_DC_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ACROBAT_STANDARD_DC_HERE"
   },
   {
-    "id": "reporting-tool-81",
-    "name": "Reporting Tool 81",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_REPORTING_TOOL_81_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_REPORTING_TOOL_81_HERE"
+    "id": "inkscape",
+    "name": "Inkscape",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_INKSCAPE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_INKSCAPE_HERE"
   },
   {
-    "id": "integration-hub-82",
-    "name": "Integration Hub 82",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_INTEGRATION_HUB_82_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_INTEGRATION_HUB_82_HERE"
+    "id": "gimp",
+    "name": "GIMP",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_GIMP_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_GIMP_HERE"
   },
   {
-    "id": "monitoring-agent-83",
-    "name": "Monitoring Agent 83",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MONITORING_AGENT_83_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MONITORING_AGENT_83_HERE"
+    "id": "krita",
+    "name": "Krita",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_KRITA_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_KRITA_HERE"
   },
   {
-    "id": "network-probe-84",
-    "name": "Network Probe 84",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NETWORK_PROBE_84_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NETWORK_PROBE_84_HERE"
+    "id": "paint-net",
+    "name": "Paint.NET",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_PAINT_NET_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_PAINT_NET_HERE"
   },
   {
-    "id": "enterprise-utility-85",
-    "name": "Enterprise Utility 85",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_UTILITY_85_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_UTILITY_85_HERE"
+    "id": "mypaint",
+    "name": "MyPaint",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MYPAINT_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MYPAINT_HERE"
   },
   {
-    "id": "enterprise-plugin-86",
-    "name": "Enterprise Plugin 86",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_PLUGIN_86_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_PLUGIN_86_HERE"
+    "id": "firealpaca",
+    "name": "FireAlpaca",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_FIREALPACA_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_FIREALPACA_HERE"
   },
   {
-    "id": "cloud-connector-87",
-    "name": "Cloud Connector 87",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CLOUD_CONNECTOR_87_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CLOUD_CONNECTOR_87_HERE"
+    "id": "medibang-paint",
+    "name": "MediBang Paint",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MEDIBANG_PAINT_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MEDIBANG_PAINT_HERE"
   },
   {
-    "id": "identity-provider-88",
-    "name": "Identity Provider 88",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_IDENTITY_PROVIDER_88_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_IDENTITY_PROVIDER_88_HERE"
+    "id": "clip-studio-paint",
+    "name": "Clip Studio Paint",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CLIP_STUDIO_PAINT_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CLIP_STUDIO_PAINT_HERE"
   },
   {
-    "id": "data-sync-89",
-    "name": "Data Sync 89",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DATA_SYNC_89_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DATA_SYNC_89_HERE"
+    "id": "corel-painter",
+    "name": "Corel Painter",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_COREL_PAINTER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_COREL_PAINTER_HERE"
   },
   {
-    "id": "compliance-scanner-90",
-    "name": "Compliance Scanner 90",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_COMPLIANCE_SCANNER_90_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_COMPLIANCE_SCANNER_90_HERE"
+    "id": "rebelle",
+    "name": "Rebelle",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_REBELLE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_REBELLE_HERE"
   },
   {
-    "id": "audit-agent-91",
-    "name": "Audit Agent 91",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_AUDIT_AGENT_91_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_AUDIT_AGENT_91_HERE"
+    "id": "artrage",
+    "name": "ArtRage",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ARTRAGE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ARTRAGE_HERE"
   },
   {
-    "id": "backup-agent-92",
-    "name": "Backup Agent 92",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BACKUP_AGENT_92_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BACKUP_AGENT_92_HERE"
+    "id": "sketchbook",
+    "name": "Sketchbook",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_SKETCHBOOK_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_SKETCHBOOK_HERE"
   },
   {
-    "id": "reporting-tool-93",
-    "name": "Reporting Tool 93",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_REPORTING_TOOL_93_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_REPORTING_TOOL_93_HERE"
+    "id": "wps-office",
+    "name": "WPS Office",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_WPS_OFFICE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_WPS_OFFICE_HERE"
   },
   {
-    "id": "integration-hub-94",
-    "name": "Integration Hub 94",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_INTEGRATION_HUB_94_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_INTEGRATION_HUB_94_HERE"
+    "id": "polaris-office",
+    "name": "Polaris Office",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_POLARIS_OFFICE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_POLARIS_OFFICE_HERE"
   },
   {
-    "id": "monitoring-agent-95",
-    "name": "Monitoring Agent 95",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MONITORING_AGENT_95_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MONITORING_AGENT_95_HERE"
+    "id": "freeoffice",
+    "name": "FreeOffice",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_FREEOFFICE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_FREEOFFICE_HERE"
   },
   {
-    "id": "network-probe-96",
-    "name": "Network Probe 96",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NETWORK_PROBE_96_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NETWORK_PROBE_96_HERE"
+    "id": "onlyoffice",
+    "name": "OnlyOffice",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ONLYOFFICE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ONLYOFFICE_HERE"
   },
   {
-    "id": "enterprise-utility-97",
-    "name": "Enterprise Utility 97",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_UTILITY_97_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_UTILITY_97_HERE"
+    "id": "calligra-suite",
+    "name": "Calligra Suite",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CALLIGRA_SUITE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CALLIGRA_SUITE_HERE"
   },
   {
-    "id": "enterprise-plugin-98",
-    "name": "Enterprise Plugin 98",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_PLUGIN_98_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_PLUGIN_98_HERE"
+    "id": "apache-openoffice",
+    "name": "Apache OpenOffice",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_APACHE_OPENOFFICE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_APACHE_OPENOFFICE_HERE"
   },
   {
-    "id": "cloud-connector-99",
-    "name": "Cloud Connector 99",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CLOUD_CONNECTOR_99_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CLOUD_CONNECTOR_99_HERE"
+    "id": "neooffice",
+    "name": "NeoOffice",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NEOOFFICE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NEOOFFICE_HERE"
   },
   {
-    "id": "identity-provider-100",
-    "name": "Identity Provider 100",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_IDENTITY_PROVIDER_100_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_IDENTITY_PROVIDER_100_HERE"
+    "id": "abiword",
+    "name": "AbiWord",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ABIWORD_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ABIWORD_HERE"
   },
   {
-    "id": "data-sync-101",
-    "name": "Data Sync 101",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DATA_SYNC_101_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DATA_SYNC_101_HERE"
+    "id": "gnumeric",
+    "name": "Gnumeric",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_GNUMERIC_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_GNUMERIC_HERE"
   },
   {
-    "id": "compliance-scanner-102",
-    "name": "Compliance Scanner 102",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_COMPLIANCE_SCANNER_102_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_COMPLIANCE_SCANNER_102_HERE"
+    "id": "scribus",
+    "name": "Scribus",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_SCRIBUS_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_SCRIBUS_HERE"
   },
   {
-    "id": "audit-agent-103",
-    "name": "Audit Agent 103",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_AUDIT_AGENT_103_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_AUDIT_AGENT_103_HERE"
+    "id": "lyx",
+    "name": "LyX",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_LYX_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_LYX_HERE"
   },
   {
-    "id": "backup-agent-104",
-    "name": "Backup Agent 104",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BACKUP_AGENT_104_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BACKUP_AGENT_104_HERE"
+    "id": "texworks",
+    "name": "TeXworks",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_TEXWORKS_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_TEXWORKS_HERE"
   },
   {
-    "id": "reporting-tool-105",
-    "name": "Reporting Tool 105",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_REPORTING_TOOL_105_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_REPORTING_TOOL_105_HERE"
+    "id": "texstudio",
+    "name": "TeXstudio",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_TEXSTUDIO_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_TEXSTUDIO_HERE"
   },
   {
-    "id": "integration-hub-106",
-    "name": "Integration Hub 106",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_INTEGRATION_HUB_106_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_INTEGRATION_HUB_106_HERE"
+    "id": "miktex",
+    "name": "MikTeX",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MIKTEX_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MIKTEX_HERE"
   },
   {
-    "id": "monitoring-agent-107",
-    "name": "Monitoring Agent 107",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MONITORING_AGENT_107_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MONITORING_AGENT_107_HERE"
+    "id": "mactex",
+    "name": "MacTeX",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MACTEX_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MACTEX_HERE"
   },
   {
-    "id": "network-probe-108",
-    "name": "Network Probe 108",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NETWORK_PROBE_108_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NETWORK_PROBE_108_HERE"
+    "id": "foxit-reader",
+    "name": "Foxit Reader",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_FOXIT_READER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_FOXIT_READER_HERE"
   },
   {
-    "id": "enterprise-utility-109",
-    "name": "Enterprise Utility 109",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_UTILITY_109_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_UTILITY_109_HERE"
+    "id": "nitro-pdf-reader",
+    "name": "Nitro PDF Reader",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NITRO_PDF_READER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NITRO_PDF_READER_HERE"
   },
   {
-    "id": "enterprise-plugin-110",
-    "name": "Enterprise Plugin 110",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_PLUGIN_110_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_PLUGIN_110_HERE"
+    "id": "pdf-xchange-viewer",
+    "name": "PDF-XChange Viewer",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_PDF_XCHANGE_VIEWER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_PDF_XCHANGE_VIEWER_HERE"
   },
   {
-    "id": "cloud-connector-111",
-    "name": "Cloud Connector 111",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CLOUD_CONNECTOR_111_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CLOUD_CONNECTOR_111_HERE"
+    "id": "sumatra-pdf",
+    "name": "Sumatra PDF",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_SUMATRA_PDF_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_SUMATRA_PDF_HERE"
   },
   {
-    "id": "identity-provider-112",
-    "name": "Identity Provider 112",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_IDENTITY_PROVIDER_112_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_IDENTITY_PROVIDER_112_HERE"
+    "id": "pdfsam",
+    "name": "PDFsam",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_PDFSAM_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_PDFSAM_HERE"
   },
   {
-    "id": "data-sync-113",
-    "name": "Data Sync 113",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DATA_SYNC_113_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DATA_SYNC_113_HERE"
+    "id": "sejda-pdf-desktop",
+    "name": "Sejda PDF Desktop",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_SEJDA_PDF_DESKTOP_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_SEJDA_PDF_DESKTOP_HERE"
   },
   {
-    "id": "compliance-scanner-114",
-    "name": "Compliance Scanner 114",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_COMPLIANCE_SCANNER_114_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_COMPLIANCE_SCANNER_114_HERE"
+    "id": "pdf24-creator",
+    "name": "PDF24 Creator",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_PDF24_CREATOR_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_PDF24_CREATOR_HERE"
   },
   {
-    "id": "audit-agent-115",
-    "name": "Audit Agent 115",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_AUDIT_AGENT_115_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_AUDIT_AGENT_115_HERE"
+    "id": "pdfcreator",
+    "name": "PDFCreator",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_PDFCREATOR_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_PDFCREATOR_HERE"
   },
   {
-    "id": "backup-agent-116",
-    "name": "Backup Agent 116",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BACKUP_AGENT_116_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BACKUP_AGENT_116_HERE"
+    "id": "bullzip-pdf-printer",
+    "name": "Bullzip PDF Printer",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BULLZIP_PDF_PRINTER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BULLZIP_PDF_PRINTER_HERE"
   },
   {
-    "id": "reporting-tool-117",
-    "name": "Reporting Tool 117",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_REPORTING_TOOL_117_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_REPORTING_TOOL_117_HERE"
+    "id": "dopdf",
+    "name": "doPDF",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DOPDF_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DOPDF_HERE"
   },
   {
-    "id": "integration-hub-118",
-    "name": "Integration Hub 118",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_INTEGRATION_HUB_118_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_INTEGRATION_HUB_118_HERE"
+    "id": "cutepdf-writer",
+    "name": "CutePDF Writer",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CUTEPDF_WRITER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CUTEPDF_WRITER_HERE"
   },
   {
-    "id": "monitoring-agent-119",
-    "name": "Monitoring Agent 119",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MONITORING_AGENT_119_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MONITORING_AGENT_119_HERE"
+    "id": "primopdf",
+    "name": "PrimoPDF",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_PRIMOPDF_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_PRIMOPDF_HERE"
   },
   {
-    "id": "network-probe-120",
-    "name": "Network Probe 120",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NETWORK_PROBE_120_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NETWORK_PROBE_120_HERE"
+    "id": "ghostscript",
+    "name": "Ghostscript",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_GHOSTSCRIPT_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_GHOSTSCRIPT_HERE"
   },
   {
-    "id": "enterprise-utility-121",
-    "name": "Enterprise Utility 121",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_UTILITY_121_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_UTILITY_121_HERE"
+    "id": "ghostview",
+    "name": "Ghostview",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_GHOSTVIEW_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_GHOSTVIEW_HERE"
   },
   {
-    "id": "enterprise-plugin-122",
-    "name": "Enterprise Plugin 122",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_PLUGIN_122_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_PLUGIN_122_HERE"
+    "id": "irfanview",
+    "name": "IrfanView",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_IRFANVIEW_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_IRFANVIEW_HERE"
   },
   {
-    "id": "cloud-connector-123",
-    "name": "Cloud Connector 123",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CLOUD_CONNECTOR_123_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CLOUD_CONNECTOR_123_HERE"
+    "id": "xnview",
+    "name": "XnView",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_XNVIEW_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_XNVIEW_HERE"
   },
   {
-    "id": "identity-provider-124",
-    "name": "Identity Provider 124",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_IDENTITY_PROVIDER_124_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_IDENTITY_PROVIDER_124_HERE"
+    "id": "faststone-image-viewer",
+    "name": "FastStone Image Viewer",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_FASTSTONE_IMAGE_VIEWER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_FASTSTONE_IMAGE_VIEWER_HERE"
   },
   {
-    "id": "data-sync-125",
-    "name": "Data Sync 125",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DATA_SYNC_125_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DATA_SYNC_125_HERE"
+    "id": "imageglass",
+    "name": "ImageGlass",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_IMAGEGLASS_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_IMAGEGLASS_HERE"
   },
   {
-    "id": "compliance-scanner-126",
-    "name": "Compliance Scanner 126",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_COMPLIANCE_SCANNER_126_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_COMPLIANCE_SCANNER_126_HERE"
+    "id": "honeyview",
+    "name": "Honeyview",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_HONEYVIEW_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_HONEYVIEW_HERE"
   },
   {
-    "id": "audit-agent-127",
-    "name": "Audit Agent 127",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_AUDIT_AGENT_127_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_AUDIT_AGENT_127_HERE"
+    "id": "nomacs",
+    "name": "Nomacs",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NOMACS_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NOMACS_HERE"
   },
   {
-    "id": "backup-agent-128",
-    "name": "Backup Agent 128",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BACKUP_AGENT_128_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BACKUP_AGENT_128_HERE"
+    "id": "qview",
+    "name": "qView",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_QVIEW_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_QVIEW_HERE"
   },
   {
-    "id": "reporting-tool-129",
-    "name": "Reporting Tool 129",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_REPORTING_TOOL_129_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_REPORTING_TOOL_129_HERE"
+    "id": "jpegview",
+    "name": "JPEGView",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_JPEGVIEW_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_JPEGVIEW_HERE"
   },
   {
-    "id": "integration-hub-130",
-    "name": "Integration Hub 130",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_INTEGRATION_HUB_130_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_INTEGRATION_HUB_130_HERE"
+    "id": "gwenview",
+    "name": "Gwenview",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_GWENVIEW_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_GWENVIEW_HERE"
   },
   {
-    "id": "monitoring-agent-131",
-    "name": "Monitoring Agent 131",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MONITORING_AGENT_131_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MONITORING_AGENT_131_HERE"
+    "id": "eye-of-gnome",
+    "name": "Eye of GNOME",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_EYE_OF_GNOME_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_EYE_OF_GNOME_HERE"
   },
   {
-    "id": "network-probe-132",
-    "name": "Network Probe 132",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NETWORK_PROBE_132_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NETWORK_PROBE_132_HERE"
+    "id": "shotwell",
+    "name": "Shotwell",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_SHOTWELL_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_SHOTWELL_HERE"
   },
   {
-    "id": "enterprise-utility-133",
-    "name": "Enterprise Utility 133",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_UTILITY_133_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_UTILITY_133_HERE"
+    "id": "digikam",
+    "name": "digiKam",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DIGIKAM_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DIGIKAM_HERE"
   },
   {
-    "id": "enterprise-plugin-134",
-    "name": "Enterprise Plugin 134",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_PLUGIN_134_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_PLUGIN_134_HERE"
+    "id": "darktable",
+    "name": "Darktable",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DARKTABLE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DARKTABLE_HERE"
   },
   {
-    "id": "cloud-connector-135",
-    "name": "Cloud Connector 135",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CLOUD_CONNECTOR_135_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CLOUD_CONNECTOR_135_HERE"
+    "id": "rawtherapee",
+    "name": "RawTherapee",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_RAWTHERAPEE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_RAWTHERAPEE_HERE"
   },
   {
-    "id": "identity-provider-136",
-    "name": "Identity Provider 136",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_IDENTITY_PROVIDER_136_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_IDENTITY_PROVIDER_136_HERE"
+    "id": "lightzone",
+    "name": "LightZone",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_LIGHTZONE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_LIGHTZONE_HERE"
   },
   {
-    "id": "data-sync-137",
-    "name": "Data Sync 137",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DATA_SYNC_137_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DATA_SYNC_137_HERE"
+    "id": "photivo",
+    "name": "Photivo",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_PHOTIVO_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_PHOTIVO_HERE"
   },
   {
-    "id": "compliance-scanner-138",
-    "name": "Compliance Scanner 138",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_COMPLIANCE_SCANNER_138_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_COMPLIANCE_SCANNER_138_HERE"
+    "id": "ufraw",
+    "name": "UFRaw",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_UFRAW_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_UFRAW_HERE"
   },
   {
-    "id": "audit-agent-139",
-    "name": "Audit Agent 139",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_AUDIT_AGENT_139_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_AUDIT_AGENT_139_HERE"
+    "id": "dcraw",
+    "name": "dcraw",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DCRAW_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DCRAW_HERE"
   },
   {
-    "id": "backup-agent-140",
-    "name": "Backup Agent 140",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BACKUP_AGENT_140_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BACKUP_AGENT_140_HERE"
+    "id": "imagemagick",
+    "name": "ImageMagick",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_IMAGEMAGICK_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_IMAGEMAGICK_HERE"
   },
   {
-    "id": "reporting-tool-141",
-    "name": "Reporting Tool 141",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_REPORTING_TOOL_141_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_REPORTING_TOOL_141_HERE"
+    "id": "graphicsmagick",
+    "name": "GraphicsMagick",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_GRAPHICSMAGICK_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_GRAPHICSMAGICK_HERE"
   },
   {
-    "id": "integration-hub-142",
-    "name": "Integration Hub 142",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_INTEGRATION_HUB_142_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_INTEGRATION_HUB_142_HERE"
+    "id": "exiftool",
+    "name": "ExifTool",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_EXIFTOOL_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_EXIFTOOL_HERE"
   },
   {
-    "id": "monitoring-agent-143",
-    "name": "Monitoring Agent 143",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MONITORING_AGENT_143_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MONITORING_AGENT_143_HERE"
+    "id": "ccleaner",
+    "name": "CCleaner",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CCLEANER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CCLEANER_HERE"
   },
   {
-    "id": "network-probe-144",
-    "name": "Network Probe 144",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NETWORK_PROBE_144_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NETWORK_PROBE_144_HERE"
+    "id": "bleachbit",
+    "name": "BleachBit",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BLEACHBIT_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BLEACHBIT_HERE"
   },
   {
-    "id": "enterprise-utility-145",
-    "name": "Enterprise Utility 145",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_UTILITY_145_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_UTILITY_145_HERE"
+    "id": "glary-utilities",
+    "name": "Glary Utilities",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_GLARY_UTILITIES_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_GLARY_UTILITIES_HERE"
   },
   {
-    "id": "enterprise-plugin-146",
-    "name": "Enterprise Plugin 146",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_PLUGIN_146_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_PLUGIN_146_HERE"
+    "id": "advanced-systemcare",
+    "name": "Advanced SystemCare",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ADVANCED_SYSTEMCARE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ADVANCED_SYSTEMCARE_HERE"
   },
   {
-    "id": "cloud-connector-147",
-    "name": "Cloud Connector 147",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CLOUD_CONNECTOR_147_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CLOUD_CONNECTOR_147_HERE"
+    "id": "wise-care-365",
+    "name": "Wise Care 365",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_WISE_CARE_365_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_WISE_CARE_365_HERE"
   },
   {
-    "id": "identity-provider-148",
-    "name": "Identity Provider 148",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_IDENTITY_PROVIDER_148_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_IDENTITY_PROVIDER_148_HERE"
+    "id": "ashampoo-winoptimizer",
+    "name": "Ashampoo WinOptimizer",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ASHAMPOO_WINOPTIMIZER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ASHAMPOO_WINOPTIMIZER_HERE"
   },
   {
-    "id": "data-sync-149",
-    "name": "Data Sync 149",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DATA_SYNC_149_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DATA_SYNC_149_HERE"
+    "id": "iobit-uninstaller",
+    "name": "IObit Uninstaller",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_IOBIT_UNINSTALLER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_IOBIT_UNINSTALLER_HERE"
   },
   {
-    "id": "compliance-scanner-150",
-    "name": "Compliance Scanner 150",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_COMPLIANCE_SCANNER_150_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_COMPLIANCE_SCANNER_150_HERE"
+    "id": "revo-uninstaller",
+    "name": "Revo Uninstaller",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_REVO_UNINSTALLER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_REVO_UNINSTALLER_HERE"
   },
   {
-    "id": "audit-agent-151",
-    "name": "Audit Agent 151",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_AUDIT_AGENT_151_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_AUDIT_AGENT_151_HERE"
+    "id": "geek-uninstaller",
+    "name": "Geek Uninstaller",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_GEEK_UNINSTALLER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_GEEK_UNINSTALLER_HERE"
   },
   {
-    "id": "backup-agent-152",
-    "name": "Backup Agent 152",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BACKUP_AGENT_152_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BACKUP_AGENT_152_HERE"
+    "id": "bulk-crap-uninstaller",
+    "name": "Bulk Crap Uninstaller",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BULK_CRAP_UNINSTALLER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BULK_CRAP_UNINSTALLER_HERE"
   },
   {
-    "id": "reporting-tool-153",
-    "name": "Reporting Tool 153",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_REPORTING_TOOL_153_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_REPORTING_TOOL_153_HERE"
+    "id": "bcuninstaller",
+    "name": "BCUninstaller",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BCUNINSTALLER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BCUNINSTALLER_HERE"
   },
   {
-    "id": "integration-hub-154",
-    "name": "Integration Hub 154",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_INTEGRATION_HUB_154_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_INTEGRATION_HUB_154_HERE"
+    "id": "autoruns",
+    "name": "AutoRuns",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_AUTORUNS_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_AUTORUNS_HERE"
   },
   {
-    "id": "monitoring-agent-155",
-    "name": "Monitoring Agent 155",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MONITORING_AGENT_155_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MONITORING_AGENT_155_HERE"
+    "id": "process-explorer",
+    "name": "Process Explorer",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_PROCESS_EXPLORER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_PROCESS_EXPLORER_HERE"
   },
   {
-    "id": "network-probe-156",
-    "name": "Network Probe 156",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NETWORK_PROBE_156_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NETWORK_PROBE_156_HERE"
+    "id": "process-hacker",
+    "name": "Process Hacker",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_PROCESS_HACKER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_PROCESS_HACKER_HERE"
   },
   {
-    "id": "enterprise-utility-157",
-    "name": "Enterprise Utility 157",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_UTILITY_157_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_UTILITY_157_HERE"
+    "id": "system-explorer",
+    "name": "System Explorer",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_SYSTEM_EXPLORER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_SYSTEM_EXPLORER_HERE"
   },
   {
-    "id": "enterprise-plugin-158",
-    "name": "Enterprise Plugin 158",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_PLUGIN_158_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_PLUGIN_158_HERE"
+    "id": "hwinfo",
+    "name": "HWiNFO",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_HWINFO_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_HWINFO_HERE"
   },
   {
-    "id": "cloud-connector-159",
-    "name": "Cloud Connector 159",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CLOUD_CONNECTOR_159_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CLOUD_CONNECTOR_159_HERE"
+    "id": "cpu-z",
+    "name": "CPU-Z",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CPU_Z_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CPU_Z_HERE"
   },
   {
-    "id": "identity-provider-160",
-    "name": "Identity Provider 160",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_IDENTITY_PROVIDER_160_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_IDENTITY_PROVIDER_160_HERE"
+    "id": "gpu-z",
+    "name": "GPU-Z",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_GPU_Z_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_GPU_Z_HERE"
   },
   {
-    "id": "data-sync-161",
-    "name": "Data Sync 161",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DATA_SYNC_161_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DATA_SYNC_161_HERE"
+    "id": "speccy",
+    "name": "Speccy",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_SPECCY_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_SPECCY_HERE"
   },
   {
-    "id": "compliance-scanner-162",
-    "name": "Compliance Scanner 162",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_COMPLIANCE_SCANNER_162_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_COMPLIANCE_SCANNER_162_HERE"
+    "id": "aida64",
+    "name": "AIDA64",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_AIDA64_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_AIDA64_HERE"
   },
   {
-    "id": "audit-agent-163",
-    "name": "Audit Agent 163",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_AUDIT_AGENT_163_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_AUDIT_AGENT_163_HERE"
+    "id": "crystaldiskinfo",
+    "name": "CrystalDiskInfo",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CRYSTALDISKINFO_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CRYSTALDISKINFO_HERE"
   },
   {
-    "id": "backup-agent-164",
-    "name": "Backup Agent 164",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BACKUP_AGENT_164_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BACKUP_AGENT_164_HERE"
+    "id": "crystaldiskmark",
+    "name": "CrystalDiskMark",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CRYSTALDISKMARK_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CRYSTALDISKMARK_HERE"
   },
   {
-    "id": "reporting-tool-165",
-    "name": "Reporting Tool 165",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_REPORTING_TOOL_165_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_REPORTING_TOOL_165_HERE"
+    "id": "as-ssd-benchmark",
+    "name": "AS SSD Benchmark",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_AS_SSD_BENCHMARK_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_AS_SSD_BENCHMARK_HERE"
   },
   {
-    "id": "integration-hub-166",
-    "name": "Integration Hub 166",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_INTEGRATION_HUB_166_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_INTEGRATION_HUB_166_HERE"
+    "id": "atto-disk-benchmark",
+    "name": "ATTO Disk Benchmark",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ATTO_DISK_BENCHMARK_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ATTO_DISK_BENCHMARK_HERE"
   },
   {
-    "id": "monitoring-agent-167",
-    "name": "Monitoring Agent 167",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MONITORING_AGENT_167_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MONITORING_AGENT_167_HERE"
+    "id": "hd-tune",
+    "name": "HD Tune",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_HD_TUNE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_HD_TUNE_HERE"
   },
   {
-    "id": "network-probe-168",
-    "name": "Network Probe 168",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NETWORK_PROBE_168_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NETWORK_PROBE_168_HERE"
+    "id": "victoria",
+    "name": "Victoria",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_VICTORIA_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_VICTORIA_HERE"
   },
   {
-    "id": "enterprise-utility-169",
-    "name": "Enterprise Utility 169",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_UTILITY_169_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_UTILITY_169_HERE"
+    "id": "mhdd",
+    "name": "MHDD",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MHDD_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MHDD_HERE"
   },
   {
-    "id": "enterprise-plugin-170",
-    "name": "Enterprise Plugin 170",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_PLUGIN_170_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_PLUGIN_170_HERE"
+    "id": "memtest86",
+    "name": "MemTest86",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MEMTEST86_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MEMTEST86_HERE"
   },
   {
-    "id": "cloud-connector-171",
-    "name": "Cloud Connector 171",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CLOUD_CONNECTOR_171_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CLOUD_CONNECTOR_171_HERE"
+    "id": "windows-memory-diagnostic",
+    "name": "Windows Memory Diagnostic",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_WINDOWS_MEMORY_DIAGNOSTIC_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_WINDOWS_MEMORY_DIAGNOSTIC_HERE"
   },
   {
-    "id": "identity-provider-172",
-    "name": "Identity Provider 172",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_IDENTITY_PROVIDER_172_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_IDENTITY_PROVIDER_172_HERE"
+    "id": "prime95",
+    "name": "Prime95",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_PRIME95_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_PRIME95_HERE"
   },
   {
-    "id": "data-sync-173",
-    "name": "Data Sync 173",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DATA_SYNC_173_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DATA_SYNC_173_HERE"
+    "id": "linx",
+    "name": "LinX",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_LINX_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_LINX_HERE"
   },
   {
-    "id": "compliance-scanner-174",
-    "name": "Compliance Scanner 174",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_COMPLIANCE_SCANNER_174_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_COMPLIANCE_SCANNER_174_HERE"
+    "id": "occt",
+    "name": "OCCT",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_OCCT_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_OCCT_HERE"
   },
   {
-    "id": "audit-agent-175",
-    "name": "Audit Agent 175",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_AUDIT_AGENT_175_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_AUDIT_AGENT_175_HERE"
+    "id": "furmark",
+    "name": "FurMark",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_FURMARK_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_FURMARK_HERE"
   },
   {
-    "id": "backup-agent-176",
-    "name": "Backup Agent 176",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BACKUP_AGENT_176_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BACKUP_AGENT_176_HERE"
+    "id": "3dmark",
+    "name": "3DMark",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_3DMARK_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_3DMARK_HERE"
   },
   {
-    "id": "reporting-tool-177",
-    "name": "Reporting Tool 177",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_REPORTING_TOOL_177_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_REPORTING_TOOL_177_HERE"
+    "id": "pcmark",
+    "name": "PCMark",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_PCMARK_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_PCMARK_HERE"
   },
   {
-    "id": "integration-hub-178",
-    "name": "Integration Hub 178",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_INTEGRATION_HUB_178_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_INTEGRATION_HUB_178_HERE"
+    "id": "cinebench",
+    "name": "Cinebench",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CINEBENCH_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CINEBENCH_HERE"
   },
   {
-    "id": "monitoring-agent-179",
-    "name": "Monitoring Agent 179",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MONITORING_AGENT_179_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MONITORING_AGENT_179_HERE"
+    "id": "geekbench",
+    "name": "Geekbench",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_GEEKBENCH_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_GEEKBENCH_HERE"
   },
   {
-    "id": "network-probe-180",
-    "name": "Network Probe 180",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NETWORK_PROBE_180_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NETWORK_PROBE_180_HERE"
+    "id": "novabench",
+    "name": "Novabench",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NOVABENCH_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NOVABENCH_HERE"
   },
   {
-    "id": "enterprise-utility-181",
-    "name": "Enterprise Utility 181",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_UTILITY_181_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_UTILITY_181_HERE"
+    "id": "passmark-performancetest",
+    "name": "PassMark PerformanceTest",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_PASSMARK_PERFORMANCETEST_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_PASSMARK_PERFORMANCETEST_HERE"
   },
   {
-    "id": "enterprise-plugin-182",
-    "name": "Enterprise Plugin 182",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_PLUGIN_182_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_PLUGIN_182_HERE"
+    "id": "userbenchmark",
+    "name": "UserBenchmark",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_USERBENCHMARK_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_USERBENCHMARK_HERE"
   },
   {
-    "id": "cloud-connector-183",
-    "name": "Cloud Connector 183",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CLOUD_CONNECTOR_183_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CLOUD_CONNECTOR_183_HERE"
+    "id": "fraps",
+    "name": "Fraps",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_FRAPS_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_FRAPS_HERE"
   },
   {
-    "id": "identity-provider-184",
-    "name": "Identity Provider 184",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_IDENTITY_PROVIDER_184_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_IDENTITY_PROVIDER_184_HERE"
+    "id": "msi-afterburner",
+    "name": "MSI Afterburner",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MSI_AFTERBURNER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MSI_AFTERBURNER_HERE"
   },
   {
-    "id": "data-sync-185",
-    "name": "Data Sync 185",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DATA_SYNC_185_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DATA_SYNC_185_HERE"
+    "id": "evga-precision-x1",
+    "name": "EVGA Precision X1",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_EVGA_PRECISION_X1_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_EVGA_PRECISION_X1_HERE"
   },
   {
-    "id": "compliance-scanner-186",
-    "name": "Compliance Scanner 186",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_COMPLIANCE_SCANNER_186_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_COMPLIANCE_SCANNER_186_HERE"
+    "id": "rivatuner-statistics-server",
+    "name": "RivaTuner Statistics Server",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_RIVATUNER_STATISTICS_SERVER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_RIVATUNER_STATISTICS_SERVER_HERE"
   },
   {
-    "id": "audit-agent-187",
-    "name": "Audit Agent 187",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_AUDIT_AGENT_187_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_AUDIT_AGENT_187_HERE"
+    "id": "hwmonitor",
+    "name": "HWMonitor",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_HWMONITOR_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_HWMONITOR_HERE"
   },
   {
-    "id": "backup-agent-188",
-    "name": "Backup Agent 188",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BACKUP_AGENT_188_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BACKUP_AGENT_188_HERE"
+    "id": "core-temp",
+    "name": "Core Temp",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CORE_TEMP_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CORE_TEMP_HERE"
   },
   {
-    "id": "reporting-tool-189",
-    "name": "Reporting Tool 189",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_REPORTING_TOOL_189_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_REPORTING_TOOL_189_HERE"
+    "id": "real-temp",
+    "name": "Real Temp",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_REAL_TEMP_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_REAL_TEMP_HERE"
   },
   {
-    "id": "integration-hub-190",
-    "name": "Integration Hub 190",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_INTEGRATION_HUB_190_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_INTEGRATION_HUB_190_HERE"
+    "id": "speedfan",
+    "name": "SpeedFan",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_SPEEDFAN_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_SPEEDFAN_HERE"
   },
   {
-    "id": "monitoring-agent-191",
-    "name": "Monitoring Agent 191",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MONITORING_AGENT_191_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MONITORING_AGENT_191_HERE"
+    "id": "argus-monitor",
+    "name": "Argus Monitor",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ARGUS_MONITOR_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ARGUS_MONITOR_HERE"
   },
   {
-    "id": "network-probe-192",
-    "name": "Network Probe 192",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NETWORK_PROBE_192_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NETWORK_PROBE_192_HERE"
+    "id": "macs-fan-control",
+    "name": "Macs Fan Control",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MACS_FAN_CONTROL_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MACS_FAN_CONTROL_HERE"
   },
   {
-    "id": "enterprise-utility-193",
-    "name": "Enterprise Utility 193",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_UTILITY_193_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_UTILITY_193_HERE"
+    "id": "angry-ip-scanner",
+    "name": "Angry IP Scanner",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ANGRY_IP_SCANNER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ANGRY_IP_SCANNER_HERE"
   },
   {
-    "id": "enterprise-plugin-194",
-    "name": "Enterprise Plugin 194",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_PLUGIN_194_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_PLUGIN_194_HERE"
+    "id": "advanced-ip-scanner",
+    "name": "Advanced IP Scanner",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ADVANCED_IP_SCANNER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ADVANCED_IP_SCANNER_HERE"
   },
   {
-    "id": "cloud-connector-195",
-    "name": "Cloud Connector 195",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CLOUD_CONNECTOR_195_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CLOUD_CONNECTOR_195_HERE"
+    "id": "nmap",
+    "name": "Nmap",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NMAP_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NMAP_HERE"
   },
   {
-    "id": "identity-provider-196",
-    "name": "Identity Provider 196",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_IDENTITY_PROVIDER_196_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_IDENTITY_PROVIDER_196_HERE"
+    "id": "zenmap",
+    "name": "Zenmap",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ZENMAP_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ZENMAP_HERE"
   },
   {
-    "id": "data-sync-197",
-    "name": "Data Sync 197",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DATA_SYNC_197_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DATA_SYNC_197_HERE"
+    "id": "fing",
+    "name": "Fing",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_FING_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_FING_HERE"
   },
   {
-    "id": "compliance-scanner-198",
-    "name": "Compliance Scanner 198",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_COMPLIANCE_SCANNER_198_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_COMPLIANCE_SCANNER_198_HERE"
+    "id": "netspot",
+    "name": "NetSpot",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NETSPOT_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NETSPOT_HERE"
   },
   {
-    "id": "audit-agent-199",
-    "name": "Audit Agent 199",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_AUDIT_AGENT_199_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_AUDIT_AGENT_199_HERE"
+    "id": "inssider",
+    "name": "inSSIDer",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_INSSIDER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_INSSIDER_HERE"
   },
   {
-    "id": "backup-agent-200",
-    "name": "Backup Agent 200",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BACKUP_AGENT_200_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BACKUP_AGENT_200_HERE"
+    "id": "ekahau-heatmapper",
+    "name": "Ekahau HeatMapper",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_EKAHAU_HEATMAPPER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_EKAHAU_HEATMAPPER_HERE"
   },
   {
-    "id": "reporting-tool-201",
-    "name": "Reporting Tool 201",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_REPORTING_TOOL_201_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_REPORTING_TOOL_201_HERE"
+    "id": "acrylic-wi-fi-home",
+    "name": "Acrylic Wi-Fi Home",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ACRYLIC_WI_FI_HOME_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ACRYLIC_WI_FI_HOME_HERE"
   },
   {
-    "id": "integration-hub-202",
-    "name": "Integration Hub 202",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_INTEGRATION_HUB_202_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_INTEGRATION_HUB_202_HERE"
+    "id": "vistumbler",
+    "name": "Vistumbler",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_VISTUMBLER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_VISTUMBLER_HERE"
   },
   {
-    "id": "monitoring-agent-203",
-    "name": "Monitoring Agent 203",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MONITORING_AGENT_203_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MONITORING_AGENT_203_HERE"
+    "id": "kismet",
+    "name": "Kismet",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_KISMET_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_KISMET_HERE"
   },
   {
-    "id": "network-probe-204",
-    "name": "Network Probe 204",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NETWORK_PROBE_204_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NETWORK_PROBE_204_HERE"
+    "id": "aircrack-ng",
+    "name": "Aircrack-ng",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_AIRCRACK_NG_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_AIRCRACK_NG_HERE"
   },
   {
-    "id": "enterprise-utility-205",
-    "name": "Enterprise Utility 205",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_UTILITY_205_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_UTILITY_205_HERE"
+    "id": "cain-and-abel",
+    "name": "Cain and Abel",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CAIN_AND_ABEL_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CAIN_AND_ABEL_HERE"
   },
   {
-    "id": "enterprise-plugin-206",
-    "name": "Enterprise Plugin 206",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_PLUGIN_206_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_PLUGIN_206_HERE"
+    "id": "ettercap",
+    "name": "Ettercap",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ETTERCAP_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ETTERCAP_HERE"
   },
   {
-    "id": "cloud-connector-207",
-    "name": "Cloud Connector 207",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CLOUD_CONNECTOR_207_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CLOUD_CONNECTOR_207_HERE"
+    "id": "responder",
+    "name": "Responder",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_RESPONDER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_RESPONDER_HERE"
   },
   {
-    "id": "identity-provider-208",
-    "name": "Identity Provider 208",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_IDENTITY_PROVIDER_208_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_IDENTITY_PROVIDER_208_HERE"
+    "id": "burp-suite",
+    "name": "Burp Suite",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BURP_SUITE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BURP_SUITE_HERE"
   },
   {
-    "id": "data-sync-209",
-    "name": "Data Sync 209",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DATA_SYNC_209_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DATA_SYNC_209_HERE"
+    "id": "owasp-zap",
+    "name": "OWASP ZAP",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_OWASP_ZAP_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_OWASP_ZAP_HERE"
   },
   {
-    "id": "compliance-scanner-210",
-    "name": "Compliance Scanner 210",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_COMPLIANCE_SCANNER_210_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_COMPLIANCE_SCANNER_210_HERE"
+    "id": "nikto",
+    "name": "Nikto",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NIKTO_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NIKTO_HERE"
   },
   {
-    "id": "audit-agent-211",
-    "name": "Audit Agent 211",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_AUDIT_AGENT_211_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_AUDIT_AGENT_211_HERE"
+    "id": "nessus",
+    "name": "Nessus",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NESSUS_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NESSUS_HERE"
   },
   {
-    "id": "backup-agent-212",
-    "name": "Backup Agent 212",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BACKUP_AGENT_212_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BACKUP_AGENT_212_HERE"
+    "id": "openvas",
+    "name": "OpenVAS",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_OPENVAS_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_OPENVAS_HERE"
   },
   {
-    "id": "reporting-tool-213",
-    "name": "Reporting Tool 213",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_REPORTING_TOOL_213_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_REPORTING_TOOL_213_HERE"
+    "id": "nexpose",
+    "name": "Nexpose",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NEXPOSE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NEXPOSE_HERE"
   },
   {
-    "id": "integration-hub-214",
-    "name": "Integration Hub 214",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_INTEGRATION_HUB_214_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_INTEGRATION_HUB_214_HERE"
+    "id": "qualysguard",
+    "name": "QualysGuard",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_QUALYSGUARD_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_QUALYSGUARD_HERE"
   },
   {
-    "id": "monitoring-agent-215",
-    "name": "Monitoring Agent 215",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MONITORING_AGENT_215_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MONITORING_AGENT_215_HERE"
+    "id": "metasploit",
+    "name": "Metasploit",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_METASPLOIT_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_METASPLOIT_HERE"
   },
   {
-    "id": "network-probe-216",
-    "name": "Network Probe 216",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NETWORK_PROBE_216_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NETWORK_PROBE_216_HERE"
+    "id": "armitage",
+    "name": "Armitage",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ARMITAGE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ARMITAGE_HERE"
   },
   {
-    "id": "enterprise-utility-217",
-    "name": "Enterprise Utility 217",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_UTILITY_217_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_UTILITY_217_HERE"
+    "id": "cobalt-strike",
+    "name": "Cobalt Strike",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_COBALT_STRIKE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_COBALT_STRIKE_HERE"
   },
   {
-    "id": "enterprise-plugin-218",
-    "name": "Enterprise Plugin 218",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_PLUGIN_218_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_PLUGIN_218_HERE"
+    "id": "empire",
+    "name": "Empire",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_EMPIRE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_EMPIRE_HERE"
   },
   {
-    "id": "cloud-connector-219",
-    "name": "Cloud Connector 219",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CLOUD_CONNECTOR_219_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CLOUD_CONNECTOR_219_HERE"
+    "id": "bloodhound",
+    "name": "BloodHound",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BLOODHOUND_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BLOODHOUND_HERE"
   },
   {
-    "id": "identity-provider-220",
-    "name": "Identity Provider 220",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_IDENTITY_PROVIDER_220_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_IDENTITY_PROVIDER_220_HERE"
+    "id": "pingcastle",
+    "name": "PingCastle",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_PINGCASTLE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_PINGCASTLE_HERE"
   },
   {
-    "id": "data-sync-221",
-    "name": "Data Sync 221",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DATA_SYNC_221_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DATA_SYNC_221_HERE"
+    "id": "mimikatz",
+    "name": "Mimikatz",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MIMIKATZ_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MIMIKATZ_HERE"
   },
   {
-    "id": "compliance-scanner-222",
-    "name": "Compliance Scanner 222",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_COMPLIANCE_SCANNER_222_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_COMPLIANCE_SCANNER_222_HERE"
+    "id": "hashcat",
+    "name": "Hashcat",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_HASHCAT_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_HASHCAT_HERE"
   },
   {
-    "id": "audit-agent-223",
-    "name": "Audit Agent 223",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_AUDIT_AGENT_223_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_AUDIT_AGENT_223_HERE"
+    "id": "john-the-ripper",
+    "name": "John the Ripper",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_JOHN_THE_RIPPER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_JOHN_THE_RIPPER_HERE"
   },
   {
-    "id": "backup-agent-224",
-    "name": "Backup Agent 224",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BACKUP_AGENT_224_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BACKUP_AGENT_224_HERE"
+    "id": "hydra",
+    "name": "Hydra",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_HYDRA_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_HYDRA_HERE"
   },
   {
-    "id": "reporting-tool-225",
-    "name": "Reporting Tool 225",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_REPORTING_TOOL_225_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_REPORTING_TOOL_225_HERE"
+    "id": "medusa",
+    "name": "Medusa",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MEDUSA_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MEDUSA_HERE"
   },
   {
-    "id": "integration-hub-226",
-    "name": "Integration Hub 226",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_INTEGRATION_HUB_226_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_INTEGRATION_HUB_226_HERE"
+    "id": "ncrack",
+    "name": "Ncrack",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NCRACK_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NCRACK_HERE"
   },
   {
-    "id": "monitoring-agent-227",
-    "name": "Monitoring Agent 227",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MONITORING_AGENT_227_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MONITORING_AGENT_227_HERE"
+    "id": "patator",
+    "name": "Patator",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_PATATOR_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_PATATOR_HERE"
   },
   {
-    "id": "network-probe-228",
-    "name": "Network Probe 228",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NETWORK_PROBE_228_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NETWORK_PROBE_228_HERE"
+    "id": "ophcrack",
+    "name": "Ophcrack",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_OPHCRACK_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_OPHCRACK_HERE"
   },
   {
-    "id": "enterprise-utility-229",
-    "name": "Enterprise Utility 229",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_UTILITY_229_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_UTILITY_229_HERE"
+    "id": "rainbowcrack",
+    "name": "RainbowCrack",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_RAINBOWCRACK_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_RAINBOWCRACK_HERE"
   },
   {
-    "id": "enterprise-plugin-230",
-    "name": "Enterprise Plugin 230",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_PLUGIN_230_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_PLUGIN_230_HERE"
+    "id": "l0phtcrack",
+    "name": "L0phtCrack",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_L0PHTCRACK_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_L0PHTCRACK_HERE"
   },
   {
-    "id": "cloud-connector-231",
-    "name": "Cloud Connector 231",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CLOUD_CONNECTOR_231_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CLOUD_CONNECTOR_231_HERE"
+    "id": "reaver",
+    "name": "Reaver",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_REAVER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_REAVER_HERE"
   },
   {
-    "id": "identity-provider-232",
-    "name": "Identity Provider 232",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_IDENTITY_PROVIDER_232_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_IDENTITY_PROVIDER_232_HERE"
+    "id": "pixiewps",
+    "name": "Pixiewps",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_PIXIEWPS_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_PIXIEWPS_HERE"
   },
   {
-    "id": "data-sync-233",
-    "name": "Data Sync 233",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DATA_SYNC_233_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DATA_SYNC_233_HERE"
+    "id": "wifite",
+    "name": "Wifite",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_WIFITE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_WIFITE_HERE"
   },
   {
-    "id": "compliance-scanner-234",
-    "name": "Compliance Scanner 234",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_COMPLIANCE_SCANNER_234_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_COMPLIANCE_SCANNER_234_HERE"
+    "id": "fern-wifi-cracker",
+    "name": "Fern Wifi Cracker",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_FERN_WIFI_CRACKER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_FERN_WIFI_CRACKER_HERE"
   },
   {
-    "id": "audit-agent-235",
-    "name": "Audit Agent 235",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_AUDIT_AGENT_235_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_AUDIT_AGENT_235_HERE"
+    "id": "netstumbler",
+    "name": "NetStumbler",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NETSTUMBLER_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NETSTUMBLER_HERE"
   },
   {
-    "id": "backup-agent-236",
-    "name": "Backup Agent 236",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BACKUP_AGENT_236_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BACKUP_AGENT_236_HERE"
+    "id": "nextcloud",
+    "name": "Nextcloud",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NEXTCLOUD_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NEXTCLOUD_HERE"
   },
   {
-    "id": "reporting-tool-237",
-    "name": "Reporting Tool 237",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_REPORTING_TOOL_237_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_REPORTING_TOOL_237_HERE"
+    "id": "owncloud",
+    "name": "ownCloud",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_OWNCLOUD_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_OWNCLOUD_HERE"
   },
   {
-    "id": "integration-hub-238",
-    "name": "Integration Hub 238",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_INTEGRATION_HUB_238_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_INTEGRATION_HUB_238_HERE"
+    "id": "seafile",
+    "name": "Seafile",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_SEAFILE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_SEAFILE_HERE"
   },
   {
-    "id": "monitoring-agent-239",
-    "name": "Monitoring Agent 239",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MONITORING_AGENT_239_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MONITORING_AGENT_239_HERE"
+    "id": "syncthing",
+    "name": "Syncthing",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_SYNCTHING_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_SYNCTHING_HERE"
   },
   {
-    "id": "network-probe-240",
-    "name": "Network Probe 240",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NETWORK_PROBE_240_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NETWORK_PROBE_240_HERE"
+    "id": "resilio-sync",
+    "name": "Resilio Sync",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_RESILIO_SYNC_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_RESILIO_SYNC_HERE"
   },
   {
-    "id": "enterprise-utility-241",
-    "name": "Enterprise Utility 241",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_UTILITY_241_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_UTILITY_241_HERE"
+    "id": "freefilesync",
+    "name": "FreeFileSync",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_FREEFILESYNC_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_FREEFILESYNC_HERE"
   },
   {
-    "id": "enterprise-plugin-242",
-    "name": "Enterprise Plugin 242",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ENTERPRISE_PLUGIN_242_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ENTERPRISE_PLUGIN_242_HERE"
+    "id": "goodsync",
+    "name": "GoodSync",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_GOODSYNC_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_GOODSYNC_HERE"
   },
   {
-    "id": "cloud-connector-243",
-    "name": "Cloud Connector 243",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_CLOUD_CONNECTOR_243_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_CLOUD_CONNECTOR_243_HERE"
+    "id": "allway-sync",
+    "name": "Allway Sync",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_ALLWAY_SYNC_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_ALLWAY_SYNC_HERE"
   },
   {
-    "id": "identity-provider-244",
-    "name": "Identity Provider 244",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_IDENTITY_PROVIDER_244_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_IDENTITY_PROVIDER_244_HERE"
+    "id": "synctoy",
+    "name": "SyncToy",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_SYNCTOY_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_SYNCTOY_HERE"
   },
   {
-    "id": "data-sync-245",
-    "name": "Data Sync 245",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DATA_SYNC_245_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DATA_SYNC_245_HERE"
+    "id": "cobian-backup",
+    "name": "Cobian Backup",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_COBIAN_BACKUP_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_COBIAN_BACKUP_HERE"
   },
   {
-    "id": "compliance-scanner-246",
-    "name": "Compliance Scanner 246",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_COMPLIANCE_SCANNER_246_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_COMPLIANCE_SCANNER_246_HERE"
+    "id": "duplicati",
+    "name": "Duplicati",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DUPLICATI_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DUPLICATI_HERE"
   },
   {
-    "id": "audit-agent-247",
-    "name": "Audit Agent 247",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_AUDIT_AGENT_247_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_AUDIT_AGENT_247_HERE"
+    "id": "bacula",
+    "name": "Bacula",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BACULA_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BACULA_HERE"
   },
   {
-    "id": "backup-agent-248",
-    "name": "Backup Agent 248",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_BACKUP_AGENT_248_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_BACKUP_AGENT_248_HERE"
+    "id": "mitel-connect",
+    "name": "Mitel Connect",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MITEL_CONNECT_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MITEL_CONNECT_HERE"
   },
   {
-    "id": "reporting-tool-249",
-    "name": "Reporting Tool 249",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_REPORTING_TOOL_249_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_REPORTING_TOOL_249_HERE"
+    "id": "8x8-work",
+    "name": "8x8 Work",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_8X8_WORK_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_8X8_WORK_HERE"
   },
   {
-    "id": "integration-hub-250",
-    "name": "Integration Hub 250",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_INTEGRATION_HUB_250_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_INTEGRATION_HUB_250_HERE"
+    "id": "avaya-workplace",
+    "name": "Avaya Workplace",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_AVAYA_WORKPLACE_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_AVAYA_WORKPLACE_HERE"
   },
   {
-    "id": "monitoring-agent-251",
-    "name": "Monitoring Agent 251",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_MONITORING_AGENT_251_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_MONITORING_AGENT_251_HERE"
+    "id": "dialpad",
+    "name": "Dialpad",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_DIALPAD_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_DIALPAD_HERE"
   },
   {
-    "id": "network-probe-252",
-    "name": "Network Probe 252",
-    "macos_url": "PASTE_YOUR_MAC_URL_FOR_NETWORK_PROBE_252_HERE",
-    "windows_url": "PASTE_YOUR_WIN_URL_FOR_NETWORK_PROBE_252_HERE"
+    "id": "vonage-business",
+    "name": "Vonage Business",
+    "macos_url": "PASTE_YOUR_MAC_URL_FOR_VONAGE_BUSINESS_HERE",
+    "windows_url": "PASTE_YOUR_WIN_URL_FOR_VONAGE_BUSINESS_HERE"
   }
 ]
