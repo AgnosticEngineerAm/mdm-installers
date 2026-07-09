@@ -1,0 +1,20 @@
+# CODEOWNERS
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default: repo owner reviews everything
+*                                   @CyberEnthusiastAm
+
+# Scripts
+scripts/macos/                      @CyberEnthusiastAm
+scripts/windows/                    @CyberEnthusiastAm
+scripts/linux/                      @CyberEnthusiastAm
+
+# Configuration profiles — extra scrutiny required
+profiles/                           @CyberEnthusiastAm
+
+# CI / workflows — changes require extra review
+.github/workflows/                  @CyberEnthusiastAm
+.github/                            @CyberEnthusiastAm
+
+# Documentation
+docs/                               @CyberEnthusiastAm

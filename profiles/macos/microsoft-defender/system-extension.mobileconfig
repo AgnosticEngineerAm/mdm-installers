@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Microsoft Defender for Endpoint — System Extension Allowlist Profile
+  Purpose: Pre-approves the Microsoft Defender system extensions.
+
+  Defender System Extension Bundle IDs:
+    - com.microsoft.wdav.epsext               (Endpoint Security Extension)
+    - com.microsoft.wdav.netext               (Network Extension)
+    - com.microsoft.endpoint.security.extension (Unified Extension)
+  Team ID: UBF8T346G9 (Microsoft Corporation)
+  Tested on: macOS 13 Ventura, 14 Sonoma, 15 Sequoia
+-->
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.system-extension-policy</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.mdm-installers.microsoft-defender.sysext</string>
+      <key>PayloadUUID</key>
+      <string>E7F8A9B0-C1D2-3456-0123-567890123456</string>
+      <key>PayloadDisplayName</key>
+      <string>Microsoft Defender System Extension Allowlist</string>
+      <key>AllowedSystemExtensions</key>
+      <dict>
+        <key>UBF8T346G9</key>
+        <array>
+          <string>com.microsoft.wdav.epsext</string>
+          <string>com.microsoft.wdav.netext</string>
+          <string>com.microsoft.endpoint.security.extension</string>
+        </array>
+      </dict>
+      <key>AllowedSystemExtensionTypes</key>
+      <dict>
+        <key>UBF8T346G9</key>
+        <array>
+          <string>EndpointSecurityExtension</string>
+          <string>NetworkExtension</string>
+        </array>
+      </dict>
+    </dict>
+    <!-- Background Task (Login Item) Allowance -->
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.servicemanagement</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.mdm-installers.microsoft-defender.loginitems</string>
+      <key>PayloadUUID</key>
+      <string>F8A9B0C1-D2E3-4567-1234-678901234567</string>
+      <key>PayloadDisplayName</key>
+      <string>Microsoft Defender Background Tasks</string>
+      <key>Rules</key>
+      <array>
+        <dict>
+          <key>RuleType</key>
+          <string>TeamIdentifier</string>
+          <key>RuleValue</key>
+          <string>UBF8T346G9</string>
+          <key>Comment</key>
+          <string>Allow all Microsoft background tasks</string>
+        </dict>
+      </array>
+    </dict>
+  </array>
+  <key>PayloadDisplayName</key>
+  <string>Microsoft Defender — System Extensions &amp; Background Tasks</string>
+  <key>PayloadDescription</key>
+  <string>Pre-approves Defender system extensions and login items.</string>
+  <key>PayloadIdentifier</key>
+  <string>com.mdm-installers.microsoft-defender.sysext.profile</string>
+  <key>PayloadOrganization</key>
+  <string>Your Organization Name</string>
+  <key>PayloadScope</key>
+  <string>System</string>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>A9B0C1D2-E3F4-5678-2345-789012345678</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>

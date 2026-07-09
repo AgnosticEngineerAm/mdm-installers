@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Baseline — Automatic Updates Profile
+  Purpose: Enforces macOS automatic updates to ensure devices stay secure.
+           - Checks for updates automatically
+           - Downloads updates in the background
+           - Installs macOS updates automatically
+           - Installs app updates automatically
+           - Installs system data files and security updates automatically
+
+  Tested on: macOS 13 Ventura, 14 Sonoma, 15 Sequoia
+-->
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.SoftwareUpdate</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.mdm-installers.baseline.softwareupdate</string>
+      <key>PayloadUUID</key>
+      <string>A5B6C7D8-E9F0-1234-8901-234567890123</string>
+      <key>PayloadDisplayName</key>
+      <string>Software Update Policy</string>
+      <key>PayloadDescription</key>
+      <string>Enforces automatic software updates.</string>
+      <key>AutomaticCheckEnabled</key>
+      <true/>
+      <key>AutomaticDownload</key>
+      <true/>
+      <key>AutomaticallyInstallAppUpdates</key>
+      <true/>
+      <key>AutomaticallyInstallMacOSUpdates</key>
+      <true/>
+      <key>ConfigDataInstall</key>
+      <true/>
+      <!-- System data files and security updates -->
+      <key>CriticalUpdateInstall</key>
+      <true/>
+      <key>AllowPreReleaseInstallation</key>
+      <false/>
+      <!-- Prevent users from installing macOS Betas -->
+    </dict>
+  </array>
+  <key>PayloadDisplayName</key>
+  <string>Baseline — Automatic Updates Enforced</string>
+  <key>PayloadDescription</key>
+  <string>Enforces automatic download and installation of macOS, app, and security updates.</string>
+  <key>PayloadIdentifier</key>
+  <string>com.mdm-installers.baseline.softwareupdate.profile</string>
+  <key>PayloadOrganization</key>
+  <string>Your Organization Name</string>
+  <key>PayloadScope</key>
+  <string>System</string>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>B6C7D8E9-F0A1-2345-9012-345678901234</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>
