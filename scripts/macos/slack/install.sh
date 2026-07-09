@@ -9,7 +9,6 @@ set -euo pipefail
 
 ### ====== CONFIG ==============================================================
 # IT / enterprise DMG download — always fetches the latest version
-SLACK_PKG_URL="https://slack.com/intl/en-us/downloads/mac"
 # NOTE: Slack distributes as a .dmg for direct download.
 # For MDM deployment, the recommended approach is:
 #   1. Download the .dmg from https://slack.com/downloads/mac
@@ -18,8 +17,6 @@ SLACK_PKG_URL="https://slack.com/intl/en-us/downloads/mac"
 SLACK_DMG_URL="PASTE_YOUR_SLACK_DMG_URL_HERE"
 
 EXPECTED_SHA256=""
-EXPECTED_TEAM_ID="BQR82RBBHL"  # Slack Technologies Team ID
-
 FORCE_REINSTALL="false"
 LOG_FILE="/var/log/mdm-slack-install.log"
 ### ===========================================================================

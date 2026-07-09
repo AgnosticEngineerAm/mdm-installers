@@ -21,8 +21,6 @@ else
 fi
 
 EXPECTED_SHA256=""
-EXPECTED_TEAM_ID="9BNSXJN65R"  # Docker Inc. Apple Developer Team ID
-
 FORCE_REINSTALL="false"
 LOG_FILE="/var/log/mdm-docker-install.log"
 ### ===========================================================================
