@@ -7,7 +7,7 @@ Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
 # ====== CONFIG ================================================================
-# IT Admin MSI — Universal (recommended for MDM deployment)
+# IT Admin MSI - Universal (recommended for MDM deployment)
 $ZoomMsiUrl     = 'https://zoom.us/client/latest/ZoomInstallerFull.msi?archType=x64'
 $ExpectedSHA256 = ''
 $ForceReinstall = $false
@@ -28,7 +28,7 @@ function Invoke-Fatal { param([string]$m) Write-Log $m 'ERROR'; exit 1 }
 Write-Log 'Starting Zoom install.'
 
 function Test-ZoomInstalled {
-    $app = Get-WmiObject Win32_Product -ErrorAction SilentlyContinue |
+    $app = Get-CimInstance Win32_Product -ErrorAction SilentlyContinue |
            Where-Object { $_.Name -like 'Zoom*' }
     return ($null -ne $app) -or (Test-Path "$env:ProgramFiles\Zoom\bin\Zoom.exe")
 }

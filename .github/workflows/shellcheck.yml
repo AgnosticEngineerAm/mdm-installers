@@ -24,5 +24,5 @@ jobs:
           severity: warning
           check_together: 'yes'
           # Ignore SC2016: Expressions don't expand in single quotes (we use this for config blocks)
-          # Ignore SC2154: Variable is referenced but not assigned (config block placeholders)
-          ignore_names: SC2016,SC2154
+          # Ignore SC2034: Variable appears unused (used for template configuration blocks)
+          ignore_names: SC2016,SC2154,SC2034

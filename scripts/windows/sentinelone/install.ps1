@@ -24,7 +24,7 @@ $ForceReinstall = $false
 $LogFile        = 'C:\ProgramData\MDM\Logs\sentinelone-install.log'
 # =============================================================================
 
-# ── Logging ───────────────────────────────────────────────────────────────────
+# -- Logging -------------------------------------------------------------------
 $LogDir = Split-Path $LogFile -Parent
 if (-not (Test-Path $LogDir)) { New-Item -ItemType Directory -Path $LogDir -Force | Out-Null }
 
@@ -40,11 +40,11 @@ function Invoke-Fatal { param([string]$m) Write-Log $m 'ERROR'; exit 1 }
 Write-Log "Starting SentinelOne install script."
 Write-Log "OS: $((Get-CimInstance Win32_OperatingSystem).Caption) $((Get-CimInstance Win32_OperatingSystem).Version)"
 
-# ── Idempotency ───────────────────────────────────────────────────────────────
+# -- Idempotency ---------------------------------------------------------------
 function Test-S1Installed {
     $s1Service = Get-Service -Name 'SentinelAgent' -ErrorAction SilentlyContinue
     if ($s1Service) { return $true }
-    $s1App = Get-WmiObject -Class Win32_Product -ErrorAction SilentlyContinue |
+    $s1App = Get-CimInstance -ClassName Win32_Product -ErrorAction SilentlyContinue |
              Where-Object { $_.Name -like '*SentinelOne*' -or $_.Name -like '*Sentinel Agent*' }
     return ($null -ne $s1App)
 }
@@ -54,7 +54,7 @@ if (-not $ForceReinstall -and (Test-S1Installed)) {
     exit 0
 }
 
-# ── Validate config ────────────────────────────────────────────────────────────
+# -- Validate config ------------------------------------------------------------
 if ($S1MsiUrl -eq 'PASTE_YOUR_SENTINELONE_MSI_URL_HERE') {
     Invoke-Fatal 'S1MsiUrl has not been set. Edit the CONFIG block before deploying.'
 }
@@ -62,7 +62,7 @@ if ($S1SiteToken -eq 'PASTE_YOUR_SITE_TOKEN_HERE') {
     Invoke-Fatal 'S1SiteToken has not been set. Edit the CONFIG block before deploying.'
 }
 
-# ── Download ──────────────────────────────────────────────────────────────────
+# -- Download ------------------------------------------------------------------
 $TempDir = Join-Path $env:TEMP "mdm-s1-$(New-Guid)"
 New-Item -ItemType Directory -Path $TempDir -Force | Out-Null
 $MsiPath = Join-Path $TempDir 'SentinelOne.msi'
@@ -76,7 +76,7 @@ try {
 catch { Invoke-Fatal "Download failed: $_" }
 finally { if ($wc) { $wc.Dispose() } }
 
-# ── Hash verification ─────────────────────────────────────────────────────────
+# -- Hash verification ---------------------------------------------------------
 if (-not [string]::IsNullOrWhiteSpace($ExpectedSHA256)) {
     $actual = (Get-FileHash -Path $MsiPath -Algorithm SHA256).Hash.ToLower()
     if ($actual -ne $ExpectedSHA256.ToLower()) {
@@ -87,7 +87,7 @@ if (-not [string]::IsNullOrWhiteSpace($ExpectedSHA256)) {
     Write-Warn 'ExpectedSHA256 not set; skipping hash verification.'
 }
 
-# ── Install ───────────────────────────────────────────────────────────────────
+# -- Install -------------------------------------------------------------------
 Write-Log 'Installing SentinelOne silently (token not logged)...'
 $msiArgs = "/i `"$MsiPath`" /quiet /norestart " +
            "SITE_TOKEN=`"$S1SiteToken`" " +
@@ -101,7 +101,7 @@ if ($proc.ExitCode -eq 3010) {
     Write-Warn 'Reboot required to complete SentinelOne installation.'
 }
 
-# ── Validate ──────────────────────────────────────────────────────────────────
+# -- Validate ------------------------------------------------------------------
 Remove-Item -Path $TempDir -Recurse -Force -ErrorAction SilentlyContinue
 
 if (Test-S1Installed) {

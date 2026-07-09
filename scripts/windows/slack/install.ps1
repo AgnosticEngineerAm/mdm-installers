@@ -7,7 +7,7 @@ Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
 # ====== CONFIG ================================================================
-# Slack MSI — machine-wide installer (recommended for MDM/enterprise)
+# Slack MSI - machine-wide installer (recommended for MDM/enterprise)
 # Download from https://slack.com/intl/en-us/downloads/windows and host internally
 $SlackMsiUrl    = 'PASTE_YOUR_SLACK_MSI_URL_HERE'
 $ExpectedSHA256 = ''

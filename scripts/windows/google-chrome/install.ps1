@@ -7,7 +7,7 @@ Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
 # ====== CONFIG ================================================================
-# Google's enterprise MSI (64-bit) — always fetches latest stable
+# Google's enterprise MSI (64-bit) - always fetches latest stable
 $ChromeMsiUrl   = 'https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi'
 $ExpectedSHA256 = ''
 $ForceReinstall = $false

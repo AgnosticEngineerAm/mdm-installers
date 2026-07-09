@@ -17,7 +17,7 @@ $ExpectedSHA256 = ''   # SHA256 of the ODT exe (recommended to pin)
 $ForceReinstall = $false
 $LogFile        = 'C:\ProgramData\MDM\Logs\office365-install.log'
 
-# Office configuration — customize for your org's SKU and language
+# Office configuration - customize for your org's SKU and language
 # Reference: https://config.office.com/
 $OfficeConfigXml = @'
 <Configuration ID="mdm-installers-m365">

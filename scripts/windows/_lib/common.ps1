@@ -13,7 +13,7 @@
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
-# ── Logging ────────────────────────────────────────────────────────────────────
+# -- Logging --------------------------------------------------------------------
 
 function Write-Log {
     param(
@@ -38,7 +38,7 @@ function Invoke-Fatal {
     exit 1
 }
 
-# ── Log File Setup ─────────────────────────────────────────────────────────────
+# -- Log File Setup -------------------------------------------------------------
 
 function Initialize-LogFile {
     param([string]$Path)
@@ -50,7 +50,7 @@ function Initialize-LogFile {
     Write-Log "Log file: $Path"
 }
 
-# ── Downloads ──────────────────────────────────────────────────────────────────
+# -- Downloads ------------------------------------------------------------------
 
 function Get-RemoteFile {
     <#
@@ -88,7 +88,7 @@ function Get-RemoteFile {
     }
 }
 
-# ── Hash Verification ──────────────────────────────────────────────────────────
+# -- Hash Verification ----------------------------------------------------------
 
 function Test-FileHash {
     <#
@@ -109,9 +109,11 @@ function Test-FileHash {
     Write-Log "SHA256 verified: $actual"
 }
 
-# ── Temp Directory ─────────────────────────────────────────────────────────────
+# -- Temp Directory -------------------------------------------------------------
 
 function New-TempDir {
+    [CmdletBinding(SupportsShouldProcess)]
+    param()
     <#
     .SYNOPSIS Creates and returns a unique temp directory path under %TEMP%.
     #>
@@ -122,6 +124,7 @@ function New-TempDir {
 }
 
 function Remove-TempDir {
+    [CmdletBinding(SupportsShouldProcess)]
     param([string]$Path)
     if (Test-Path $Path) {
         Remove-Item -Path $Path -Recurse -Force -ErrorAction SilentlyContinue
@@ -129,7 +132,7 @@ function Remove-TempDir {
     }
 }
 
-# ── MSI/EXE Install Helpers ────────────────────────────────────────────────────
+# -- MSI/EXE Install Helpers ----------------------------------------------------
 
 function Install-Msi {
     <#
@@ -140,8 +143,8 @@ function Install-Msi {
         [string]$AdditionalArgs = ''
     )
     Write-Log "Installing MSI silently: $MsiPath"
-    $args = "/i `"$MsiPath`" /quiet /norestart /l*v `"$script:LogFile.msi.log`" $AdditionalArgs".Trim()
-    $proc = Start-Process -FilePath 'msiexec.exe' -ArgumentList $args -Wait -PassThru
+    $msiArgs = "/i `"$MsiPath`" /quiet /norestart /l*v `"$script:LogFile.msi.log`" $AdditionalArgs".Trim()
+    $proc = Start-Process -FilePath 'msiexec.exe' -ArgumentList $msiArgs -Wait -PassThru
     if ($proc.ExitCode -notin @(0, 3010)) {
         Invoke-Fatal "msiexec.exe exited with code $($proc.ExitCode). Check $script:LogFile.msi.log"
     }
@@ -168,7 +171,7 @@ function Install-Exe {
     Write-Log "EXE install complete (exit code: $($proc.ExitCode))."
 }
 
-# ── System Info ────────────────────────────────────────────────────────────────
+# -- System Info ----------------------------------------------------------------
 
 function Get-OsInfo {
     $os = Get-CimInstance Win32_OperatingSystem

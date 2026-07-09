@@ -30,7 +30,8 @@ parse_os() {
   if [[ -d "$os_dir" ]]; then
     for tool_dir in "$os_dir"/*; do
       if [[ -d "$tool_dir" ]] && [[ "$(basename "$tool_dir")" != "_lib" ]]; then
-        local tool_name=$(basename "$tool_dir")
+        local tool_name
+        tool_name=$(basename "$tool_dir")
         
         if [ "$FIRST_TOOL" = true ]; then
           FIRST_TOOL=false
