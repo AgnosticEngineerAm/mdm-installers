@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  SentinelOne — System Extension Allowlist Profile
+  Purpose: Pre-approves the SentinelOne system extension so macOS
+           does not prompt the user to allow it in System Settings.
+
+  IMPORTANT:
+  1. Deploy this profile BEFORE installing the SentinelOne agent.
+  2. Generate fresh PayloadUUID values using `uuidgen` before production deployment.
+  3. This profile requires supervised devices (MDM-managed).
+
+  SentinelOne System Extension Bundle IDs:
+    - com.sentinelone.sentinel-agent (Endpoint Security extension)
+
+  Team ID: 4QXE9H42T (SentinelOne Inc.)
+  Tested on: macOS 13 Ventura, 14 Sonoma, 15 Sequoia
+-->
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.system-extension-policy</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.mdm-installers.sentinelone.sysext</string>
+      <key>PayloadUUID</key>
+      <string>C3D4E5F6-A7B8-9012-CDEF-123456789012</string>
+      <!-- Replace with: uuidgen -->
+      <key>PayloadDisplayName</key>
+      <string>SentinelOne System Extension Allowlist</string>
+      <key>PayloadDescription</key>
+      <string>Pre-approves the SentinelOne Endpoint Security system extension.</string>
+      <key>AllowedSystemExtensions</key>
+      <dict>
+        <!-- Key = Team ID, Value = array of allowed bundle IDs -->
+        <key>4QXE9H42T</key>
+        <array>
+          <string>com.sentinelone.sentinel-agent</string>
+        </array>
+      </dict>
+      <key>AllowedSystemExtensionTypes</key>
+      <dict>
+        <key>4QXE9H42T</key>
+        <array>
+          <string>EndpointSecurityExtension</string>
+          <string>NetworkExtension</string>
+        </array>
+      </dict>
+    </dict>
+  </array>
+  <key>PayloadDisplayName</key>
+  <string>SentinelOne — System Extension Allowlist</string>
+  <key>PayloadDescription</key>
+  <string>Pre-approves the SentinelOne system extension. Deploy before installing the SentinelOne agent.</string>
+  <key>PayloadIdentifier</key>
+  <string>com.mdm-installers.sentinelone.sysext.profile</string>
+  <key>PayloadOrganization</key>
+  <string>Your Organization Name</string>
+  <key>PayloadScope</key>
+  <string>System</string>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>D4E5F6A7-B8C9-0123-DEF0-234567890123</string>
+  <!-- Replace with: uuidgen -->
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>

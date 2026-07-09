@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Baseline — Screen Saver & Screen Lock Profile
+  Purpose: Enforces CIS/NIST security baselines for screen lock.
+           - Requires password immediately after screen saver begins
+           - Starts screen saver after 15 minutes of inactivity
+
+  Tested on: macOS 13 Ventura, 14 Sonoma, 15 Sequoia
+-->
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.screensaver</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.mdm-installers.baseline.screensaver</string>
+      <key>PayloadUUID</key>
+      <string>E3F4A5B6-C7D8-9012-6789-123456789012</string>
+      <key>PayloadDisplayName</key>
+      <string>Screen Saver Policy</string>
+      <key>PayloadDescription</key>
+      <string>Requires password to unlock screen and sets idle timeout.</string>
+      <key>askForPassword</key>
+      <true/>
+      <key>askForPasswordDelay</key>
+      <integer>0</integer>
+      <!-- 0 = immediately -->
+      <key>loginWindowIdleTime</key>
+      <integer>900</integer>
+      <!-- 900 seconds = 15 minutes -->
+    </dict>
+  </array>
+  <key>PayloadDisplayName</key>
+  <string>Baseline — Screen Lock Policy (15 Min)</string>
+  <key>PayloadDescription</key>
+  <string>Enforces screen lock after 15 minutes of inactivity and requires password immediately upon waking.</string>
+  <key>PayloadIdentifier</key>
+  <string>com.mdm-installers.baseline.screensaver.profile</string>
+  <key>PayloadOrganization</key>
+  <string>Your Organization Name</string>
+  <key>PayloadScope</key>
+  <string>User</string>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>F4A5B6C7-D8E9-0123-7890-234567890123</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>

@@ -1,0 +1,38 @@
+name: Profile Validator
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'profiles/**/*.mobileconfig'
+  pull_request:
+    branches: [ "main" ]
+    paths:
+      - 'profiles/**/*.mobileconfig'
+
+jobs:
+  validate-plist:
+    name: Validate MobileConfig syntax
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run plutil validation
+        run: |
+          echo "Checking syntax for all .mobileconfig files..."
+          ERRORS=0
+          
+          # Find all .mobileconfig files and check them with plutil
+          while IFS= read -r file; do
+            if ! plutil -lint "$file"; then
+              echo "::error file=$file::Invalid XML/plist syntax in $file"
+              ERRORS=$((ERRORS + 1))
+            fi
+          done < <(find ./profiles -name "*.mobileconfig" -type f)
+          
+          if [ "$ERRORS" -gt 0 ]; then
+            echo "$ERRORS file(s) failed validation."
+            exit 1
+          else
+            echo "All .mobileconfig files are valid."
+          fi

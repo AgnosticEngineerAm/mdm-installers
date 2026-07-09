@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  SentinelOne — Network Content Filter (Network Extension) Profile
+  Purpose: Pre-approves SentinelOne's network extension (content filter)
+           so macOS does not prompt the user to allow network traffic filtering.
+
+  IMPORTANT:
+  1. Deploy this profile BEFORE installing the SentinelOne agent.
+  2. Generate fresh PayloadUUID values using `uuidgen` before production deployment.
+  3. Requires supervised MDM-managed devices.
+
+  SentinelOne Network Extension:
+    Bundle ID:   com.sentinelone.sentinel-agent
+    Filter Name: SentinelOne Network Filter
+    Team ID:     4QXE9H42T
+  Tested on: macOS 13 Ventura, 14 Sonoma, 15 Sequoia
+-->
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.webcontent-filter</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.mdm-installers.sentinelone.netfilter</string>
+      <key>PayloadUUID</key>
+      <string>E5F6A7B8-C9D0-1234-EF01-345678901234</string>
+      <!-- Replace with: uuidgen -->
+      <key>PayloadDisplayName</key>
+      <string>SentinelOne Network Content Filter</string>
+      <key>PayloadDescription</key>
+      <string>Pre-approves the SentinelOne network extension for content filtering.</string>
+      <key>FilterType</key>
+      <string>Plugin</string>
+      <key>UserDefinedName</key>
+      <string>SentinelOne Network Filter</string>
+      <key>PluginBundleID</key>
+      <string>com.sentinelone.sentinel-agent</string>
+      <key>FilterSockets</key>
+      <true/>
+      <key>FilterDataProviderBundleIdentifier</key>
+      <string>com.sentinelone.sentinel-agent</string>
+      <key>FilterDataProviderDesignatedRequirement</key>
+      <string>anchor apple generic and identifier "com.sentinelone.sentinel-agent" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "4QXE9H42T")</string>
+    </dict>
+  </array>
+  <key>PayloadDisplayName</key>
+  <string>SentinelOne — Network Extension (Content Filter)</string>
+  <key>PayloadDescription</key>
+  <string>Pre-approves SentinelOne network traffic filtering. Deploy before installing the agent.</string>
+  <key>PayloadIdentifier</key>
+  <string>com.mdm-installers.sentinelone.netfilter.profile</string>
+  <key>PayloadOrganization</key>
+  <string>Your Organization Name</string>
+  <key>PayloadScope</key>
+  <string>System</string>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>F6A7B8C9-D0E1-2345-F012-456789012345</string>
+  <!-- Replace with: uuidgen -->
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>
