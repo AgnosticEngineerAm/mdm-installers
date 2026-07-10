@@ -9,7 +9,7 @@ set -euo pipefail
 ###############################################################################
 
 ### ====== CONFIG ==============================================================
-S1_PKG_URL="https://github.com/AgnosticEngineerAm/mdm-installers/releases/download/s1-macos-25.4.1-8462/Sentinel-Release-25-4-1-8462_macos_v25_4_1_8462.pkg"
+S1_PKG_URL="PASTE_YOUR_SENTINELONE_PKG_URL_HERE"
 S1_SITE_TOKEN="PASTE_YOUR_SITE_TOKEN_HERE"
 
 # Optional integrity and signing checks (recommended)

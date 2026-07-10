@@ -18,8 +18,7 @@ JC_CONNECT_KEY="PASTE_YOUR_JUMPCLOUD_CONNECT_KEY_HERE"
 JC_PKG_URL="https://cdn02.jumpcloud.com/production/agents/pkg/jumpcloud-agent.pkg"
 
 EXPECTED_SHA256=""
-# JumpCloud agent is signed — verify Team ID if desired
-EXPECTED_TEAM_ID=""  # JumpCloud's Team ID if you wish to enforce it
+
 
 FORCE_REINSTALL="false"
 LOG_FILE="/var/log/mdm-jumpcloud-install.log"
