@@ -1,179 +1,795 @@
 {
   "name": "MDM Installers Catalog",
-  "version": "1.0.0",
-  "last_updated": "2026-07-09T06:49:41Z",
+  "version": "1.3.0",
+  "last_updated": "2026-07-11T17:10:04Z",
   "tools": [
     {
       "id": "1password",
-      "name": "1password",
+      "name": "1Password",
       "os": "macos",
       "install_script": "scripts/macos/1password/install.sh",
-      "documentation": null
-    }
-    ,
+      "uninstall_script": "scripts/macos/1password/uninstall.sh",
+      "documentation": "docs/1password/README.md"
+    },
     {
-      "id": "crowdstrike",
-      "name": "Crowdstrike",
-      "os": "macos",
-      "install_script": "scripts/macos/crowdstrike/install.sh",
-      "profiles": [
-        "profiles/macos/crowdstrike/network-extension.mobileconfig"
-        ,
-        "profiles/macos/crowdstrike/pppc.mobileconfig"
-        ,
-        "profiles/macos/crowdstrike/system-extension.mobileconfig"
-      ],
-      "documentation": "docs/crowdstrike/macos.md"
-    }
-    ,
-    {
-      "id": "docker-desktop",
-      "name": "Docker Desktop",
-      "os": "macos",
-      "install_script": "scripts/macos/docker-desktop/install.sh",
-      "documentation": null
-    }
-    ,
-    {
-      "id": "google-chrome",
-      "name": "Google Chrome",
-      "os": "macos",
-      "install_script": "scripts/macos/google-chrome/install.sh",
-      "documentation": null
-    }
-    ,
-    {
-      "id": "jumpcloud-agent",
-      "name": "Jumpcloud Agent",
-      "os": "macos",
-      "install_script": "scripts/macos/jumpcloud-agent/install.sh",
-      "documentation": null
-    }
-    ,
-    {
-      "id": "microsoft-defender",
-      "name": "Microsoft Defender",
-      "os": "macos",
-      "install_script": "scripts/macos/microsoft-defender/install.sh",
-      "profiles": [
-        "profiles/macos/microsoft-defender/pppc.mobileconfig"
-        ,
-        "profiles/macos/microsoft-defender/system-extension.mobileconfig"
-      ],
-      "documentation": null
-    }
-    ,
-    {
-      "id": "microsoft-office",
-      "name": "Microsoft Office",
-      "os": "macos",
-      "install_script": "scripts/macos/microsoft-office/install.sh",
-      "documentation": null
-    }
-    ,
-    {
-      "id": "sentinelone",
-      "name": "Sentinelone",
-      "os": "macos",
-      "install_script": "scripts/macos/sentinelone/install.sh",
-      "profiles": [
-        "profiles/macos/sentinelone/network-extension.mobileconfig"
-        ,
-        "profiles/macos/sentinelone/notifications.mobileconfig"
-        ,
-        "profiles/macos/sentinelone/pppc.mobileconfig"
-        ,
-        "profiles/macos/sentinelone/system-extension.mobileconfig"
-      ],
-      "documentation": "docs/sentinelone/macos.md"
-    }
-    ,
-    {
-      "id": "slack",
-      "name": "Slack",
-      "os": "macos",
-      "install_script": "scripts/macos/slack/install.sh",
-      "documentation": null
-    }
-    ,
-    {
-      "id": "zoom",
-      "name": "Zoom",
-      "os": "macos",
-      "install_script": "scripts/macos/zoom/install.sh",
-      "documentation": null
-    }
-    ,
-    {
-      "id": "crowdstrike",
-      "name": "Crowdstrike",
+      "id": "1password",
+      "name": "1Password",
       "os": "windows",
-      "install_script": "scripts/windows/crowdstrike/install.ps1",
-      "documentation": "docs/crowdstrike/windows.md"
-    }
-    ,
+      "install_script": "scripts/windows/1password/install.ps1",
+      "documentation": "docs/1password/README.md"
+    },
     {
-      "id": "google-chrome",
-      "name": "Google Chrome",
-      "os": "windows",
-      "install_script": "scripts/windows/google-chrome/install.ps1",
-      "documentation": null
-    }
-    ,
+      "id": "1password-cli",
+      "name": "1Password Cli",
+      "os": "macos",
+      "install_script": "scripts/macos/1password-cli/install.sh",
+      "documentation": "docs/1password-cli/README.md"
+    },
     {
-      "id": "microsoft-365-apps",
-      "name": "Microsoft 365 Apps",
+      "id": "1password-cli",
+      "name": "1Password Cli",
       "os": "windows",
-      "install_script": "scripts/windows/microsoft-365-apps/install.ps1",
-      "documentation": null
-    }
-    ,
+      "install_script": "scripts/windows/1password-cli/install.ps1",
+      "documentation": "docs/1password-cli/README.md"
+    },
     {
-      "id": "sentinelone",
-      "name": "Sentinelone",
-      "os": "windows",
-      "install_script": "scripts/windows/sentinelone/install.ps1",
-      "documentation": "docs/sentinelone/windows.md"
-    }
-    ,
+      "id": "adobe-acrobat-reader",
+      "name": "Adobe Acrobat Reader",
+      "os": "macos",
+      "install_script": "scripts/macos/adobe-acrobat-reader/install.sh",
+      "uninstall_script": "scripts/macos/adobe-acrobat-reader/uninstall.sh",
+      "documentation": "docs/adobe-acrobat-reader/README.md"
+    },
     {
-      "id": "slack",
-      "name": "Slack",
+      "id": "adobe-acrobat-reader",
+      "name": "Adobe Acrobat Reader",
       "os": "windows",
-      "install_script": "scripts/windows/slack/install.ps1",
-      "documentation": null
-    }
-    ,
+      "install_script": "scripts/windows/adobe-acrobat-reader/install.ps1",
+      "documentation": "docs/adobe-acrobat-reader/README.md"
+    },
     {
-      "id": "zoom",
-      "name": "Zoom",
+      "id": "aws-cli",
+      "name": "Aws Cli",
+      "os": "macos",
+      "install_script": "scripts/macos/aws-cli/install.sh",
+      "documentation": "docs/aws-cli/README.md"
+    },
+    {
+      "id": "aws-cli",
+      "name": "Aws Cli",
       "os": "windows",
-      "install_script": "scripts/windows/zoom/install.ps1",
-      "documentation": null
-    }
-    ,
+      "install_script": "scripts/windows/aws-cli/install.ps1",
+      "documentation": "docs/aws-cli/README.md"
+    },
+    {
+      "id": "azure-cli",
+      "name": "Azure Cli",
+      "os": "macos",
+      "install_script": "scripts/macos/azure-cli/install.sh",
+      "documentation": "docs/azure-cli/README.md"
+    },
+    {
+      "id": "azure-cli",
+      "name": "Azure Cli",
+      "os": "windows",
+      "install_script": "scripts/windows/azure-cli/install.ps1",
+      "documentation": "docs/azure-cli/README.md"
+    },
+    {
+      "id": "bitwarden",
+      "name": "Bitwarden",
+      "os": "macos",
+      "install_script": "scripts/macos/bitwarden/install.sh",
+      "documentation": "docs/bitwarden/README.md"
+    },
+    {
+      "id": "bitwarden",
+      "name": "Bitwarden",
+      "os": "windows",
+      "install_script": "scripts/windows/bitwarden/install.ps1",
+      "documentation": "docs/bitwarden/README.md"
+    },
+    {
+      "id": "box-drive",
+      "name": "Box Drive",
+      "os": "macos",
+      "install_script": "scripts/macos/box-drive/install.sh",
+      "documentation": "docs/box-drive/README.md"
+    },
+    {
+      "id": "box-drive",
+      "name": "Box Drive",
+      "os": "windows",
+      "install_script": "scripts/windows/box-drive/install.ps1",
+      "documentation": "docs/box-drive/README.md"
+    },
+    {
+      "id": "camtasia",
+      "name": "Camtasia",
+      "os": "macos",
+      "install_script": "scripts/macos/camtasia/install.sh",
+      "documentation": "docs/camtasia/README.md"
+    },
+    {
+      "id": "camtasia",
+      "name": "Camtasia",
+      "os": "windows",
+      "install_script": "scripts/windows/camtasia/install.ps1",
+      "documentation": "docs/camtasia/README.md"
+    },
+    {
+      "id": "cisco-secure-client",
+      "name": "Cisco Secure Client",
+      "os": "macos",
+      "install_script": "scripts/macos/cisco-secure-client/install.sh",
+      "documentation": "docs/cisco-secure-client/README.md"
+    },
+    {
+      "id": "cisco-secure-client",
+      "name": "Cisco Secure Client",
+      "os": "windows",
+      "install_script": "scripts/windows/cisco-secure-client/install.ps1",
+      "documentation": "docs/cisco-secure-client/README.md"
+    },
+    {
+      "id": "cloudflare-warp",
+      "name": "Cloudflare Warp",
+      "os": "macos",
+      "install_script": "scripts/macos/cloudflare-warp/install.sh",
+      "documentation": "docs/cloudflare-warp/README.md"
+    },
+    {
+      "id": "cloudflare-warp",
+      "name": "Cloudflare Warp",
+      "os": "windows",
+      "install_script": "scripts/windows/cloudflare-warp/install.ps1",
+      "documentation": "docs/cloudflare-warp/README.md"
+    },
     {
       "id": "crowdstrike",
       "name": "Crowdstrike",
       "os": "linux",
       "install_script": "scripts/linux/crowdstrike/install.sh",
-      "documentation": "docs/crowdstrike/linux.md"
-    }
-    ,
+      "documentation": "docs/crowdstrike/README.md"
+    },
+    {
+      "id": "crowdstrike",
+      "name": "Crowdstrike",
+      "os": "macos",
+      "install_script": "scripts/macos/crowdstrike/install.sh",
+      "uninstall_script": "scripts/macos/crowdstrike/uninstall.sh",
+      "documentation": "docs/crowdstrike/README.md"
+    },
+    {
+      "id": "crowdstrike",
+      "name": "Crowdstrike",
+      "os": "windows",
+      "install_script": "scripts/windows/crowdstrike/install.ps1",
+      "documentation": "docs/crowdstrike/README.md"
+    },
+    {
+      "id": "dashlane",
+      "name": "Dashlane",
+      "os": "macos",
+      "install_script": "scripts/macos/dashlane/install.sh",
+      "documentation": "docs/dashlane/README.md"
+    },
+    {
+      "id": "dashlane",
+      "name": "Dashlane",
+      "os": "windows",
+      "install_script": "scripts/windows/dashlane/install.ps1",
+      "documentation": "docs/dashlane/README.md"
+    },
+    {
+      "id": "datadog-agent",
+      "name": "Datadog Agent",
+      "os": "macos",
+      "install_script": "scripts/macos/datadog-agent/install.sh",
+      "documentation": "docs/datadog-agent/README.md"
+    },
+    {
+      "id": "datadog-agent",
+      "name": "Datadog Agent",
+      "os": "windows",
+      "install_script": "scripts/windows/datadog-agent/install.ps1",
+      "documentation": "docs/datadog-agent/README.md"
+    },
+    {
+      "id": "docker-compose",
+      "name": "Docker Compose",
+      "os": "macos",
+      "install_script": "scripts/macos/docker-compose/install.sh",
+      "documentation": "docs/docker-compose/README.md"
+    },
+    {
+      "id": "docker-compose",
+      "name": "Docker Compose",
+      "os": "windows",
+      "install_script": "scripts/windows/docker-compose/install.ps1",
+      "documentation": "docs/docker-compose/README.md"
+    },
+    {
+      "id": "docker-desktop",
+      "name": "Docker Desktop",
+      "os": "linux",
+      "install_script": "scripts/linux/docker-desktop/install.sh",
+      "documentation": "docs/docker-desktop/README.md"
+    },
+    {
+      "id": "docker-desktop",
+      "name": "Docker Desktop",
+      "os": "macos",
+      "install_script": "scripts/macos/docker-desktop/install.sh",
+      "uninstall_script": "scripts/macos/docker-desktop/uninstall.sh",
+      "documentation": "docs/docker-desktop/README.md"
+    },
+    {
+      "id": "docker-desktop",
+      "name": "Docker Desktop",
+      "os": "windows",
+      "install_script": "scripts/windows/docker-desktop/install.ps1",
+      "documentation": "docs/docker-desktop/README.md"
+    },
+    {
+      "id": "dropbox",
+      "name": "Dropbox",
+      "os": "macos",
+      "install_script": "scripts/macos/dropbox/install.sh",
+      "documentation": "docs/dropbox/README.md"
+    },
+    {
+      "id": "dropbox",
+      "name": "Dropbox",
+      "os": "windows",
+      "install_script": "scripts/windows/dropbox/install.ps1",
+      "documentation": "docs/dropbox/README.md"
+    },
+    {
+      "id": "evernote",
+      "name": "Evernote",
+      "os": "macos",
+      "install_script": "scripts/macos/evernote/install.sh",
+      "documentation": "docs/evernote/README.md"
+    },
+    {
+      "id": "evernote",
+      "name": "Evernote",
+      "os": "windows",
+      "install_script": "scripts/windows/evernote/install.ps1",
+      "documentation": "docs/evernote/README.md"
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "os": "macos",
+      "install_script": "scripts/macos/figma/install.sh",
+      "uninstall_script": "scripts/macos/figma/uninstall.sh",
+      "documentation": "docs/figma/README.md"
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "os": "windows",
+      "install_script": "scripts/windows/figma/install.ps1",
+      "documentation": "docs/figma/README.md"
+    },
+    {
+      "id": "forticlient",
+      "name": "Forticlient",
+      "os": "macos",
+      "install_script": "scripts/macos/forticlient/install.sh",
+      "documentation": "docs/forticlient/README.md"
+    },
+    {
+      "id": "forticlient",
+      "name": "Forticlient",
+      "os": "windows",
+      "install_script": "scripts/windows/forticlient/install.ps1",
+      "documentation": "docs/forticlient/README.md"
+    },
+    {
+      "id": "github-desktop",
+      "name": "Github Desktop",
+      "os": "macos",
+      "install_script": "scripts/macos/github-desktop/install.sh",
+      "documentation": "docs/github-desktop/README.md"
+    },
+    {
+      "id": "github-desktop",
+      "name": "Github Desktop",
+      "os": "windows",
+      "install_script": "scripts/windows/github-desktop/install.ps1",
+      "documentation": "docs/github-desktop/README.md"
+    },
+    {
+      "id": "google-chrome",
+      "name": "Google Chrome",
+      "os": "linux",
+      "install_script": "scripts/linux/google-chrome/install.sh",
+      "documentation": "docs/google-chrome/README.md"
+    },
+    {
+      "id": "google-chrome",
+      "name": "Google Chrome",
+      "os": "macos",
+      "install_script": "scripts/macos/google-chrome/install.sh",
+      "uninstall_script": "scripts/macos/google-chrome/uninstall.sh",
+      "documentation": "docs/google-chrome/README.md"
+    },
+    {
+      "id": "google-chrome",
+      "name": "Google Chrome",
+      "os": "windows",
+      "install_script": "scripts/windows/google-chrome/install.ps1",
+      "documentation": "docs/google-chrome/README.md"
+    },
+    {
+      "id": "google-cloud-sdk",
+      "name": "Google Cloud Sdk",
+      "os": "macos",
+      "install_script": "scripts/macos/google-cloud-sdk/install.sh",
+      "documentation": "docs/google-cloud-sdk/README.md"
+    },
+    {
+      "id": "google-cloud-sdk",
+      "name": "Google Cloud Sdk",
+      "os": "windows",
+      "install_script": "scripts/windows/google-cloud-sdk/install.ps1",
+      "documentation": "docs/google-cloud-sdk/README.md"
+    },
+    {
+      "id": "grammarly",
+      "name": "Grammarly",
+      "os": "macos",
+      "install_script": "scripts/macos/grammarly/install.sh",
+      "documentation": "docs/grammarly/README.md"
+    },
+    {
+      "id": "grammarly",
+      "name": "Grammarly",
+      "os": "windows",
+      "install_script": "scripts/windows/grammarly/install.ps1",
+      "documentation": "docs/grammarly/README.md"
+    },
+    {
+      "id": "iterm2",
+      "name": "Iterm2",
+      "os": "macos",
+      "install_script": "scripts/macos/iterm2/install.sh",
+      "uninstall_script": "scripts/macos/iterm2/uninstall.sh",
+      "documentation": "docs/iterm2/README.md"
+    },
+    {
+      "id": "iterm2",
+      "name": "Iterm2",
+      "os": "windows",
+      "install_script": "scripts/windows/iterm2/install.ps1",
+      "documentation": "docs/iterm2/README.md"
+    },
+    {
+      "id": "jamf-connect",
+      "name": "Jamf Connect",
+      "os": "macos",
+      "install_script": "scripts/macos/jamf-connect/install.sh",
+      "documentation": "docs/jamf-connect/README.md"
+    },
+    {
+      "id": "jamf-connect",
+      "name": "Jamf Connect",
+      "os": "windows",
+      "install_script": "scripts/windows/jamf-connect/install.ps1",
+      "documentation": "docs/jamf-connect/README.md"
+    },
     {
       "id": "jumpcloud-agent",
       "name": "Jumpcloud Agent",
       "os": "linux",
       "install_script": "scripts/linux/jumpcloud-agent/install.sh",
-      "documentation": null
-    }
-    ,
+      "documentation": "docs/jumpcloud-agent/README.md"
+    },
+    {
+      "id": "jumpcloud-agent",
+      "name": "Jumpcloud Agent",
+      "os": "macos",
+      "install_script": "scripts/macos/jumpcloud-agent/install.sh",
+      "uninstall_script": "scripts/macos/jumpcloud-agent/uninstall.sh",
+      "documentation": "docs/jumpcloud-agent/README.md"
+    },
+    {
+      "id": "jumpcloud-agent",
+      "name": "Jumpcloud Agent",
+      "os": "windows",
+      "install_script": "scripts/windows/jumpcloud-agent/install.ps1",
+      "documentation": "docs/jumpcloud-agent/README.md"
+    },
+    {
+      "id": "keeper",
+      "name": "Keeper",
+      "os": "macos",
+      "install_script": "scripts/macos/keeper/install.sh",
+      "documentation": "docs/keeper/README.md"
+    },
+    {
+      "id": "keeper",
+      "name": "Keeper",
+      "os": "windows",
+      "install_script": "scripts/windows/keeper/install.ps1",
+      "documentation": "docs/keeper/README.md"
+    },
+    {
+      "id": "lastpass",
+      "name": "Lastpass",
+      "os": "macos",
+      "install_script": "scripts/macos/lastpass/install.sh",
+      "documentation": "docs/lastpass/README.md"
+    },
+    {
+      "id": "lastpass",
+      "name": "Lastpass",
+      "os": "windows",
+      "install_script": "scripts/windows/lastpass/install.ps1",
+      "documentation": "docs/lastpass/README.md"
+    },
+    {
+      "id": "microsoft-365-apps",
+      "name": "Microsoft 365 Apps",
+      "os": "windows",
+      "install_script": "scripts/windows/microsoft-365-apps/install.ps1",
+      "documentation": "docs/microsoft-365-apps/README.md"
+    },
+    {
+      "id": "microsoft-edge",
+      "name": "Microsoft Edge",
+      "os": "linux",
+      "install_script": "scripts/linux/microsoft-edge/install.sh",
+      "documentation": "docs/microsoft-edge/README.md"
+    },
+    {
+      "id": "microsoft-edge",
+      "name": "Microsoft Edge",
+      "os": "macos",
+      "install_script": "scripts/macos/microsoft-edge/install.sh",
+      "uninstall_script": "scripts/macos/microsoft-edge/uninstall.sh",
+      "documentation": "docs/microsoft-edge/README.md"
+    },
+    {
+      "id": "microsoft-edge",
+      "name": "Microsoft Edge",
+      "os": "windows",
+      "install_script": "scripts/windows/microsoft-edge/install.ps1",
+      "documentation": "docs/microsoft-edge/README.md"
+    },
+    {
+      "id": "microsoft-teams",
+      "name": "Microsoft Teams",
+      "os": "linux",
+      "install_script": "scripts/linux/microsoft-teams/install.sh",
+      "documentation": "docs/microsoft-teams/README.md"
+    },
+    {
+      "id": "microsoft-teams",
+      "name": "Microsoft Teams",
+      "os": "macos",
+      "install_script": "scripts/macos/microsoft-teams/install.sh",
+      "uninstall_script": "scripts/macos/microsoft-teams/uninstall.sh",
+      "documentation": "docs/microsoft-teams/README.md"
+    },
+    {
+      "id": "microsoft-teams",
+      "name": "Microsoft Teams",
+      "os": "windows",
+      "install_script": "scripts/windows/microsoft-teams/install.ps1",
+      "documentation": "docs/microsoft-teams/README.md"
+    },
+    {
+      "id": "mozilla-firefox",
+      "name": "Mozilla Firefox",
+      "os": "linux",
+      "install_script": "scripts/linux/mozilla-firefox/install.sh",
+      "documentation": "docs/mozilla-firefox/README.md"
+    },
+    {
+      "id": "mozilla-firefox",
+      "name": "Mozilla Firefox",
+      "os": "macos",
+      "install_script": "scripts/macos/mozilla-firefox/install.sh",
+      "uninstall_script": "scripts/macos/mozilla-firefox/uninstall.sh",
+      "documentation": "docs/mozilla-firefox/README.md"
+    },
+    {
+      "id": "mozilla-firefox",
+      "name": "Mozilla Firefox",
+      "os": "windows",
+      "install_script": "scripts/windows/mozilla-firefox/install.ps1",
+      "documentation": "docs/mozilla-firefox/README.md"
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "os": "macos",
+      "install_script": "scripts/macos/notion/install.sh",
+      "uninstall_script": "scripts/macos/notion/uninstall.sh",
+      "documentation": "docs/notion/README.md"
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "os": "windows",
+      "install_script": "scripts/windows/notion/install.ps1",
+      "documentation": "docs/notion/README.md"
+    },
+    {
+      "id": "obs-studio",
+      "name": "Obs Studio",
+      "os": "macos",
+      "install_script": "scripts/macos/obs-studio/install.sh",
+      "documentation": "docs/obs-studio/README.md"
+    },
+    {
+      "id": "obs-studio",
+      "name": "Obs Studio",
+      "os": "windows",
+      "install_script": "scripts/windows/obs-studio/install.ps1",
+      "documentation": "docs/obs-studio/README.md"
+    },
+    {
+      "id": "paloalto-globalprotect",
+      "name": "Paloalto Globalprotect",
+      "os": "macos",
+      "install_script": "scripts/macos/paloalto-globalprotect/install.sh",
+      "documentation": "docs/paloalto-globalprotect/README.md"
+    },
+    {
+      "id": "paloalto-globalprotect",
+      "name": "Paloalto Globalprotect",
+      "os": "windows",
+      "install_script": "scripts/windows/paloalto-globalprotect/install.ps1",
+      "documentation": "docs/paloalto-globalprotect/README.md"
+    },
+    {
+      "id": "postman",
+      "name": "Postman",
+      "os": "linux",
+      "install_script": "scripts/linux/postman/install.sh",
+      "documentation": "docs/postman/README.md"
+    },
+    {
+      "id": "postman",
+      "name": "Postman",
+      "os": "macos",
+      "install_script": "scripts/macos/postman/install.sh",
+      "uninstall_script": "scripts/macos/postman/uninstall.sh",
+      "documentation": "docs/postman/README.md"
+    },
+    {
+      "id": "postman",
+      "name": "Postman",
+      "os": "windows",
+      "install_script": "scripts/windows/postman/install.ps1",
+      "documentation": "docs/postman/README.md"
+    },
+    {
+      "id": "ringcentral",
+      "name": "Ringcentral",
+      "os": "macos",
+      "install_script": "scripts/macos/ringcentral/install.sh",
+      "documentation": "docs/ringcentral/README.md"
+    },
+    {
+      "id": "ringcentral",
+      "name": "Ringcentral",
+      "os": "windows",
+      "install_script": "scripts/windows/ringcentral/install.ps1",
+      "documentation": "docs/ringcentral/README.md"
+    },
     {
       "id": "sentinelone",
       "name": "Sentinelone",
       "os": "linux",
       "install_script": "scripts/linux/sentinelone/install.sh",
-      "documentation": "docs/sentinelone/linux.md"
+      "documentation": "docs/sentinelone/README.md"
+    },
+    {
+      "id": "sentinelone",
+      "name": "Sentinelone",
+      "os": "macos",
+      "install_script": "scripts/macos/sentinelone/install.sh",
+      "uninstall_script": "scripts/macos/sentinelone/uninstall.sh",
+      "documentation": "docs/sentinelone/README.md"
+    },
+    {
+      "id": "sentinelone",
+      "name": "Sentinelone",
+      "os": "windows",
+      "install_script": "scripts/windows/sentinelone/install.ps1",
+      "documentation": "docs/sentinelone/README.md"
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "os": "linux",
+      "install_script": "scripts/linux/slack/install.sh",
+      "documentation": "docs/slack/README.md"
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "os": "macos",
+      "install_script": "scripts/macos/slack/install.sh",
+      "uninstall_script": "scripts/macos/slack/uninstall.sh",
+      "documentation": "docs/slack/README.md"
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "os": "windows",
+      "install_script": "scripts/windows/slack/install.ps1",
+      "documentation": "docs/slack/README.md"
+    },
+    {
+      "id": "snagit",
+      "name": "Snagit",
+      "os": "macos",
+      "install_script": "scripts/macos/snagit/install.sh",
+      "documentation": "docs/snagit/README.md"
+    },
+    {
+      "id": "snagit",
+      "name": "Snagit",
+      "os": "windows",
+      "install_script": "scripts/windows/snagit/install.ps1",
+      "documentation": "docs/snagit/README.md"
+    },
+    {
+      "id": "splunk-forwarder",
+      "name": "Splunk Forwarder",
+      "os": "macos",
+      "install_script": "scripts/macos/splunk-forwarder/install.sh",
+      "documentation": "docs/splunk-forwarder/README.md"
+    },
+    {
+      "id": "splunk-forwarder",
+      "name": "Splunk Forwarder",
+      "os": "windows",
+      "install_script": "scripts/windows/splunk-forwarder/install.ps1",
+      "documentation": "docs/splunk-forwarder/README.md"
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "os": "macos",
+      "install_script": "scripts/macos/spotify/install.sh",
+      "documentation": "docs/spotify/README.md"
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "os": "windows",
+      "install_script": "scripts/windows/spotify/install.ps1",
+      "documentation": "docs/spotify/README.md"
+    },
+    {
+      "id": "tailscale",
+      "name": "Tailscale",
+      "os": "macos",
+      "install_script": "scripts/macos/tailscale/install.sh",
+      "documentation": "docs/tailscale/README.md"
+    },
+    {
+      "id": "tailscale",
+      "name": "Tailscale",
+      "os": "windows",
+      "install_script": "scripts/windows/tailscale/install.ps1",
+      "documentation": "docs/tailscale/README.md"
+    },
+    {
+      "id": "visual-studio-code",
+      "name": "Visual Studio Code",
+      "os": "linux",
+      "install_script": "scripts/linux/visual-studio-code/install.sh",
+      "documentation": "docs/visual-studio-code/README.md"
+    },
+    {
+      "id": "visual-studio-code",
+      "name": "Visual Studio Code",
+      "os": "macos",
+      "install_script": "scripts/macos/visual-studio-code/install.sh",
+      "uninstall_script": "scripts/macos/visual-studio-code/uninstall.sh",
+      "documentation": "docs/visual-studio-code/README.md"
+    },
+    {
+      "id": "visual-studio-code",
+      "name": "Visual Studio Code",
+      "os": "windows",
+      "install_script": "scripts/windows/visual-studio-code/install.ps1",
+      "documentation": "docs/visual-studio-code/README.md"
+    },
+    {
+      "id": "vlc-media-player",
+      "name": "Vlc Media Player",
+      "os": "linux",
+      "install_script": "scripts/linux/vlc-media-player/install.sh",
+      "documentation": "docs/vlc-media-player/README.md"
+    },
+    {
+      "id": "vlc-media-player",
+      "name": "Vlc Media Player",
+      "os": "macos",
+      "install_script": "scripts/macos/vlc-media-player/install.sh",
+      "uninstall_script": "scripts/macos/vlc-media-player/uninstall.sh",
+      "documentation": "docs/vlc-media-player/README.md"
+    },
+    {
+      "id": "vlc-media-player",
+      "name": "Vlc Media Player",
+      "os": "windows",
+      "install_script": "scripts/windows/vlc-media-player/install.ps1",
+      "documentation": "docs/vlc-media-player/README.md"
+    },
+    {
+      "id": "warp",
+      "name": "Warp",
+      "os": "macos",
+      "install_script": "scripts/macos/warp/install.sh",
+      "documentation": "docs/warp/README.md"
+    },
+    {
+      "id": "warp",
+      "name": "Warp",
+      "os": "windows",
+      "install_script": "scripts/windows/warp/install.ps1",
+      "documentation": "docs/warp/README.md"
+    },
+    {
+      "id": "webex",
+      "name": "Webex",
+      "os": "macos",
+      "install_script": "scripts/macos/webex/install.sh",
+      "documentation": "docs/webex/README.md"
+    },
+    {
+      "id": "webex",
+      "name": "Webex",
+      "os": "windows",
+      "install_script": "scripts/windows/webex/install.ps1",
+      "documentation": "docs/webex/README.md"
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "os": "linux",
+      "install_script": "scripts/linux/zoom/install.sh",
+      "documentation": "docs/zoom/README.md"
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "os": "macos",
+      "install_script": "scripts/macos/zoom/install.sh",
+      "uninstall_script": "scripts/macos/zoom/uninstall.sh",
+      "documentation": "docs/zoom/README.md"
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "os": "windows",
+      "install_script": "scripts/windows/zoom/install.ps1",
+      "documentation": "docs/zoom/README.md"
+    },
+    {
+      "id": "zscaler",
+      "name": "Zscaler",
+      "os": "macos",
+      "install_script": "scripts/macos/zscaler/install.sh",
+      "documentation": "docs/zscaler/README.md"
+    },
+    {
+      "id": "zscaler",
+      "name": "Zscaler",
+      "os": "windows",
+      "install_script": "scripts/windows/zscaler/install.ps1",
+      "documentation": "docs/zscaler/README.md"
     }
   ]
 }

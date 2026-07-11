@@ -1,13 +1,23 @@
 #!/bin/bash
 set -euo pipefail
-# Cloudflare Warp Enterprise macOS MDM Install
+# Cloudflare WARP macOS install (MDM Script)
 
-PKG_URL="PASTE_YOUR_MAC_URL_FOR_CLOUDFLARE_WARP_HERE"
+PKG_URL="PASTE_YOUR_CLOUDFLARE_WARP_PKG_URL_HERE"
 EXPECTED_SHA256=""
+LOG_FILE="/var/log/mdm-cloudflare-warp-install.log"
 
-source "$(dirname "$0")/../_lib/common.sh"
-log "Installing Cloudflare Warp..."
+umask 077
+mkdir -p "$(dirname "$LOG_FILE")"
+exec > >(tee -a "$LOG_FILE") 2>&1
 
-download_pkg "$PKG_URL" "$EXPECTED_SHA256"
-install_pkg
-log "SUCCESS: Cloudflare Warp installed."
+if [[ -f "$(dirname "$0")/../_lib/common.sh" ]]; then source "$(dirname "$0")/../_lib/common.sh"; else log() { echo "$*"; }; fail() { echo "ERROR: $*"; exit 1; }; fi
+[[ "$(id -u)" -eq 0 ]] || fail "Must run as root."
+
+log "Starting Cloudflare WARP install."
+TMP_DIR="$(mktemp -d)"
+PKG_PATH="$TMP_DIR/cloudflare-warp.pkg"
+trap 'rm -rf "$TMP_DIR" 2>/dev/null || true' EXIT
+
+curl -fLsS -o "$PKG_PATH" "$PKG_URL" || fail "Download failed."
+/usr/sbin/installer -pkg "$PKG_PATH" -target / || fail "installer failed."
+log "SUCCESS: Cloudflare WARP installed."

@@ -1,13 +1,23 @@
-<#
-.SYNOPSIS
-Aws Cli Enterprise Windows MDM Install
-#>
-$MsiUrl = "PASTE_YOUR_WIN_URL_FOR_AWS_CLI_HERE"
-$ExpectedSha256 = ""
+#Requires -RunAsAdministrator
+# AWS CLI Windows MDM Install Script
+$ErrorActionPreference = 'Stop'
 
-. "$PSScriptRoot\..\_lib\common.ps1"
-Write-Log "Installing Aws Cli..."
+$MsiUrl = "PASTE_YOUR_AWS_CLI_MSI_URL_HERE"
+$LogFilePath = "$env:ProgramData\MDM\Logs\mdm-aws-cli-install.log"
 
-$msiPath = Download-File -Url $MsiUrl -ExpectedSha256 $ExpectedSha256
-Install-Msi -MsiPath $msiPath
-Write-Log "SUCCESS: Aws Cli installed."
+$commonLib = "$PSScriptRoot\..\_lib\common.ps1"
+if (Test-Path $commonLib) { . $commonLib }
+
+Initialize-LogFile -Path $LogFilePath
+Write-Log "Starting AWS CLI install."
+
+$TempDir = New-TempDir
+$MsiPath = Join-Path $TempDir "aws-cli.msi"
+
+try {
+    Get-RemoteFile -Url $MsiUrl -Destination $MsiPath -Label "AWS CLI MSI"
+    Install-Msi -MsiPath $MsiPath
+    Write-Log "SUCCESS: AWS CLI installed."
+} finally {
+    Remove-TempDir -Path $TempDir
+}
