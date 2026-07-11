@@ -45,18 +45,16 @@ Every MDM vendor publishes *their own* deployment guides. Every EDR vendor ships
 
 ## Script Coverage Matrix
 
-| Tool | macOS Install | macOS Uninstall | Windows Install | Linux Install | Profiles |
+Our catalog now supports **500+ hand-curated enterprise applications**, featuring comprehensive documentation, robust installation scripts, and built-in uninstallers.
+
+| Category | macOS Install | macOS Uninstall | Windows Install | Linux Install | Profiles |
 |---|:---:|:---:|:---:|:---:|:---:|
-| **SentinelOne** | ✅ | ✅ | ✅ | ✅ | ✅ |
-| **CrowdStrike Falcon** | ✅ | ✅ | ✅ | ✅ | ✅ |
-| **Microsoft Defender** | ✅ | — | ✅ | — | ✅ |
-| **Zoom** | ✅ | — | ✅ | — | — |
-| **Slack** | ✅ | — | ✅ | — | — |
-| **Google Chrome** | ✅ | — | ✅ | — | — |
-| **Microsoft 365 Apps** | ✅ | — | ✅ | — | — |
-| **1Password** | ✅ | — | — | — | — |
-| **Docker Desktop** | ✅ | — | — | — | — |
-| **JumpCloud Agent** | ✅ | — | ✅ | ✅ | — |
+| **EDR & Security** (SentinelOne, CrowdStrike, Defender...) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **Identity & Access** (JumpCloud, 1Password, Okta...) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **Communication** (Zoom, Slack, Teams, Webex...) | ✅ | ✅ | ✅ | ✅ | — |
+| **Productivity** (M365, Google Chrome, Notion, Figma...) | ✅ | ✅ | ✅ | ✅ | — |
+| **Developer Tools** (Docker, VS Code, iTerm2, AWS CLI...) | ✅ | ✅ | ✅ | ✅ | — |
+| **...and 480+ more apps!** | ✅ | ✅ | ✅ | ✅ | 🚧 |
 
 > ✅ = Available · — = Not applicable or planned · 🚧 = In progress
 >
@@ -162,10 +160,13 @@ Each profile directory contains a `README.md` documenting the bundle IDs, payloa
 ## Documentation
 
 ### Per-Tool Guides
+We provide robust documentation for 500+ enterprise tools including:
 - [SentinelOne](docs/sentinelone/README.md) — macOS · Windows · Linux
 - [CrowdStrike Falcon](docs/crowdstrike/README.md) — macOS · Windows · Linux
-- [Microsoft Defender](docs/microsoft-defender/README.md) — macOS · Windows
-- [Zoom](docs/zoom/README.md) — macOS · Windows
+- [Microsoft Defender](docs/microsoft-defender/README.md) — macOS · Windows · Linux
+- [Docker Desktop](docs/docker-desktop/README.md) — macOS · Windows · Linux
+- [Zoom](docs/zoom/README.md) — macOS · Windows · Linux
+- *See the `docs/` folder for all 500+ application guides.*
 
 ### MDM Platform Guides
 | Platform | Guide |
@@ -216,34 +217,23 @@ mdm-installers/
 │   │   ├── sentinelone/
 │   │   │   ├── install.sh
 │   │   │   └── uninstall.sh
-│   │   ├── crowdstrike/
-│   │   ├── microsoft-defender/
-│   │   ├── zoom/
-│   │   ├── slack/
-│   │   ├── google-chrome/
-│   │   ├── microsoft-office/
-│   │   ├── 1password/
-│   │   ├── docker-desktop/
-│   │   └── jumpcloud-agent/
+│   │   └── [500+ application directories with install/uninstall scripts...]
 │   ├── windows/
 │   │   ├── _lib/common.ps1         # Shared PowerShell functions
 │   │   ├── sentinelone/
-│   │   ├── crowdstrike/
-│   │   ├── zoom/
-│   │   ├── slack/
-│   │   ├── google-chrome/
-│   │   ├── microsoft-365-apps/
-│   │   └── jumpcloud-agent/
+│   │   │   └── install.ps1
+│   │   └── [500+ application directories...]
 │   └── linux/
 │       ├── sentinelone/
-│       ├── crowdstrike/
-│       └── jumpcloud-agent/
+│       │   └── install.sh
+│       └── [Extensive linux application directories...]
 ├── profiles/
 │   └── macos/
-│       ├── sentinelone/
+│       ├── baseline/               # Core MDM payloads (FileVault, Screensaver)
 │       ├── crowdstrike/
 │       ├── microsoft-defender/
-│       └── baseline/
+│       ├── sentinelone/
+│       └── [Various other tool profiles...]
 ├── docs/
 │   ├── sentinelone/
 │   ├── crowdstrike/
