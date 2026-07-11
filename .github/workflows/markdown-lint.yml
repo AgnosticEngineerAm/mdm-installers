@@ -21,13 +21,6 @@ jobs:
         uses: DavidAnson/markdownlint-cli2-action@v16
         with:
           globs: "**/*.md"
-          # Ignore some common MD13 (line length) errors for now as we have long URLs
-          config: |
-            {
-              "default": true,
-              "MD013": false,
-              "MD033": false
-            }
 
   link-checker:
     name: Link Checker
@@ -36,7 +29,7 @@ jobs:
       - uses: actions/checkout@v4
       
       - name: Run Lychee
-        uses: lycheejs/lychee-action@v1.9.3
+        uses: lycheeverse/lychee-action@v1.9.3
         with:
           # Check all markdown files but ignore localhost and dummy links
           args: --no-progress './**/*.md' --exclude 'PASTE_YOUR' --exclude 'localhost'
