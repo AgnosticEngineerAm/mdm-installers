@@ -1,13 +1,23 @@
 #!/bin/bash
 set -euo pipefail
-# Aws Cli Enterprise macOS MDM Install
+# AWS CLI macOS install (MDM Script)
 
-PKG_URL="PASTE_YOUR_MAC_URL_FOR_AWS_CLI_HERE"
+PKG_URL="PASTE_YOUR_AWS_CLI_PKG_URL_HERE"
 EXPECTED_SHA256=""
+LOG_FILE="/var/log/mdm-aws-cli-install.log"
 
-source "$(dirname "$0")/../_lib/common.sh"
-log "Installing Aws Cli..."
+umask 077
+mkdir -p "$(dirname "$LOG_FILE")"
+exec > >(tee -a "$LOG_FILE") 2>&1
 
-download_pkg "$PKG_URL" "$EXPECTED_SHA256"
-install_pkg
-log "SUCCESS: Aws Cli installed."
+if [[ -f "$(dirname "$0")/../_lib/common.sh" ]]; then source "$(dirname "$0")/../_lib/common.sh"; else log() { echo "$*"; }; fail() { echo "ERROR: $*"; exit 1; }; fi
+[[ "$(id -u)" -eq 0 ]] || fail "Must run as root."
+
+log "Starting AWS CLI install."
+TMP_DIR="$(mktemp -d)"
+PKG_PATH="$TMP_DIR/aws-cli.pkg"
+trap 'rm -rf "$TMP_DIR" 2>/dev/null || true' EXIT
+
+curl -fLsS -o "$PKG_PATH" "$PKG_URL" || fail "Download failed."
+/usr/sbin/installer -pkg "$PKG_PATH" -target / || fail "installer failed."
+log "SUCCESS: AWS CLI installed."

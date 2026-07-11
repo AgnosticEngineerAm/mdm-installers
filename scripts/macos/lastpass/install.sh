@@ -1,13 +1,28 @@
 #!/bin/bash
 set -euo pipefail
-# Lastpass Enterprise macOS MDM Install
+# LastPass macOS install (MDM Script)
 
-PKG_URL="PASTE_YOUR_MAC_URL_FOR_LASTPASS_HERE"
+DMG_URL="PASTE_YOUR_LASTPASS_DMG_URL_HERE"
 EXPECTED_SHA256=""
+LOG_FILE="/var/log/mdm-lastpass-install.log"
 
-source "$(dirname "$0")/../_lib/common.sh"
-log "Installing Lastpass..."
+umask 077
+mkdir -p "$(dirname "$LOG_FILE")"
+exec > >(tee -a "$LOG_FILE") 2>&1
 
-download_pkg "$PKG_URL" "$EXPECTED_SHA256"
-install_pkg
-log "SUCCESS: Lastpass installed."
+if [[ -f "$(dirname "$0")/../_lib/common.sh" ]]; then source "$(dirname "$0")/../_lib/common.sh"; else log() { echo "$*"; }; fail() { echo "ERROR: $*"; exit 1; }; fi
+[[ "$(id -u)" -eq 0 ]] || fail "Must run as root."
+
+log "Starting LastPass install."
+TMP_DIR="$(mktemp -d)"
+DMG_PATH="$TMP_DIR/lastpass.dmg"
+MOUNT_POINT="$TMP_DIR/mount"
+trap 'hdiutil detach "$MOUNT_POINT" -quiet 2>/dev/null || true; rm -rf "$TMP_DIR" 2>/dev/null || true' EXIT
+
+curl -fLsS -o "$DMG_PATH" "$DMG_URL" || fail "Download failed."
+mkdir -p "$MOUNT_POINT"
+hdiutil attach "$DMG_PATH" -nobrowse -quiet -mountpoint "$MOUNT_POINT" || fail "Failed to mount DMG."
+APP_PATH=$(find "$MOUNT_POINT" -maxdepth 2 -name "*.app" -type d | head -1)
+[[ -n "$APP_PATH" ]] || fail "App not found in DMG."
+cp -R "$APP_PATH" /Applications/ || fail "Copy failed."
+log "SUCCESS: LastPass installed."

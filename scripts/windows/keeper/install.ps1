@@ -1,13 +1,23 @@
-<#
-.SYNOPSIS
-Keeper Enterprise Windows MDM Install
-#>
-$MsiUrl = "PASTE_YOUR_WIN_URL_FOR_KEEPER_HERE"
-$ExpectedSha256 = ""
+#Requires -RunAsAdministrator
+# Keeper Password Manager Windows MDM Install Script
+$ErrorActionPreference = 'Stop'
 
-. "$PSScriptRoot\..\_lib\common.ps1"
-Write-Log "Installing Keeper..."
+$ExeUrl = "PASTE_YOUR_KEEPER_EXE_URL_HERE"
+$LogFilePath = "$env:ProgramData\MDM\Logs\mdm-keeper-install.log"
 
-$msiPath = Download-File -Url $MsiUrl -ExpectedSha256 $ExpectedSha256
-Install-Msi -MsiPath $msiPath
-Write-Log "SUCCESS: Keeper installed."
+$commonLib = "$PSScriptRoot\..\_lib\common.ps1"
+if (Test-Path $commonLib) { . $commonLib }
+
+Initialize-LogFile -Path $LogFilePath
+Write-Log "Starting Keeper Password Manager install."
+
+$TempDir = New-TempDir
+$ExePath = Join-Path $TempDir "keeper.exe"
+
+try {
+    Get-RemoteFile -Url $ExeUrl -Destination $ExePath -Label "Keeper Password Manager EXE"
+    Install-Exe -ExePath $ExePath -Arguments @("/S", "/quiet", "/silent")
+    Write-Log "SUCCESS: Keeper Password Manager installed."
+} finally {
+    Remove-TempDir -Path $TempDir
+}

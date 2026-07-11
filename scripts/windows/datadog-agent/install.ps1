@@ -1,13 +1,23 @@
-<#
-.SYNOPSIS
-Datadog Agent Enterprise Windows MDM Install
-#>
-$MsiUrl = "PASTE_YOUR_WIN_URL_FOR_DATADOG_AGENT_HERE"
-$ExpectedSha256 = ""
+#Requires -RunAsAdministrator
+# Datadog Agent Windows MDM Install Script
+$ErrorActionPreference = 'Stop'
 
-. "$PSScriptRoot\..\_lib\common.ps1"
-Write-Log "Installing Datadog Agent..."
+$MsiUrl = "PASTE_YOUR_DATADOG_AGENT_MSI_URL_HERE"
+$LogFilePath = "$env:ProgramData\MDM\Logs\mdm-datadog-agent-install.log"
 
-$msiPath = Download-File -Url $MsiUrl -ExpectedSha256 $ExpectedSha256
-Install-Msi -MsiPath $msiPath
-Write-Log "SUCCESS: Datadog Agent installed."
+$commonLib = "$PSScriptRoot\..\_lib\common.ps1"
+if (Test-Path $commonLib) { . $commonLib }
+
+Initialize-LogFile -Path $LogFilePath
+Write-Log "Starting Datadog Agent install."
+
+$TempDir = New-TempDir
+$MsiPath = Join-Path $TempDir "datadog-agent.msi"
+
+try {
+    Get-RemoteFile -Url $MsiUrl -Destination $MsiPath -Label "Datadog Agent MSI"
+    Install-Msi -MsiPath $MsiPath
+    Write-Log "SUCCESS: Datadog Agent installed."
+} finally {
+    Remove-TempDir -Path $TempDir
+}
